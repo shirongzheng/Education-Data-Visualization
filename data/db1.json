@@ -1,0 +1,11330 @@
+[
+  {
+    "Unknown1": 173,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 38,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 173,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 97,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 312,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 45,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 889,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 0,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 890,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 88,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 405,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 3,
+    "Unknown2": 34
+  },
+  {
+    "Unknown1": 304,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 41,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 595,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 41,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 595,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 20,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 80,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 22,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 80,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 40,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 80,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 77,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 520,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 0,
+    "Unknown2": 60
+  },
+  {
+    "Unknown1": 249,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 89,
+    "Unknown2": 7
+  },
+  {
+    "Unknown1": 315,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 247,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 63,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 245,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 0,
+    "Unknown2": 37
+  },
+  {
+    "Unknown1": 232,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 97,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 313,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 233,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 93,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 253,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 82,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 252,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 96,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 1012,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 9,
+    "Unknown2": 36
+  },
+  {
+    "Unknown1": 237,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 90,
+    "Unknown2": 1
+  },
+  {
+    "Unknown1": 236,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 70,
+    "Unknown2": 1
+  },
+  {
+    "Unknown1": 309,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 795,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 70,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 795,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 74,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 308,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 829,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 6,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 703,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 703,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 226,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 40,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 225,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 75,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 224,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 84,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 339,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 40,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 65,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 50,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 161,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 68,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 228,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 98,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 227,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 69,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 498,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 74,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 498,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 50,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 498,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 538,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 84,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 231,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 85,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 818,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 67,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 230,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 82,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 500,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 500,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 43,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 500,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 229,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 95,
+    "Unknown2": 1
+  },
+  {
+    "Unknown1": 310,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 840,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 212,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 824,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 837,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 36,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 235,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 234,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 3,
+    "Unknown2": 13
+  },
+  {
+    "Unknown1": 220,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 26,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 213,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 33,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 250,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 33,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 436,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 10,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 805,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 81,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 805,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 70,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 246,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 90,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 443,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 19,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 616,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 29,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 616,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 40,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 244,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 47,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 832,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 29,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 243,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 61,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 807,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 76,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 807,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 71,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 702,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 81,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 702,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 800,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 14,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 800,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 800,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 510,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 46
+  },
+  {
+    "Unknown1": 510,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 38,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 433,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 0,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 586,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 30,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 586,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 36,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 794,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 85,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 794,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 73,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 238,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 0,
+    "Unknown2": 45
+  },
+  {
+    "Unknown1": 825,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 248,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 70,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 241,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 44,
+    "Unknown2": 5
+  },
+  {
+    "Unknown1": 240,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 91,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 920,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 0,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 239,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 8,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 844,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 29,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 705,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 76,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 705,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 831,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 7,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 256,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 69,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 704,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 63,
+    "Unknown2": 5
+  },
+  {
+    "Unknown1": 704,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 63,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 458,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 68,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 836,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 50,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 785,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 28,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 785,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 38,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 796,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 83,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 796,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 84,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 826,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 3,
+    "Unknown2": 52
+  },
+  {
+    "Unknown1": 489,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 489,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 25,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 816,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 47,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 802,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 87,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 802,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 69,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 819,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 49,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 251,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 0,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 838,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 67,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 787,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 54
+  },
+  {
+    "Unknown1": 787,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 63,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 797,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 86,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 797,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 80,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 789,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 789,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 44,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 806,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 71,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 806,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 75,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 450,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 5,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 851,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 62,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 906,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 27,
+    "Unknown2": 34
+  },
+  {
+    "Unknown1": 916,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 0,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 833,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 47,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 103,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 404,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 11,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 463,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 18,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 255,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 65,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 254,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 38,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 713,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 42,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 715,
+    "Sex": "F",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 50,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 242,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 14,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 421,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 11,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 437,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 12,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 821,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 56,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 416,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 73,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 440,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 12,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 710,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 13,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 791,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 67,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 791,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 72,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 420,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 18,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 603,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 30,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 603,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 33,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 707,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 77,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 614,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 58
+  },
+  {
+    "Unknown1": 614,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 58
+  },
+  {
+    "Unknown1": 725,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 31,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 830,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 49,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 828,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 26,
+    "Unknown2": 48
+  },
+  {
+    "Unknown1": 792,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 90,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 792,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 79,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 886,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 78,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 696,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 696,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 46,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 696,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 712,
+    "Sex": "F",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 39,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 716,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 85,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 936,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 11
+  },
+  {
+    "Unknown1": 722,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 37,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 425,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 90,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 723,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 79,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 452,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 12,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 708,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 65,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 719,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 56,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 717,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 47,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 441,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 1,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 834,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 28,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 412,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 1,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 412,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 0,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 429,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 10,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 835,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 66,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 820,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 78
+  },
+  {
+    "Unknown1": 442,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 0,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 424,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 18,
+    "Unknown2": 36
+  },
+  {
+    "Unknown1": 808,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 808,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 63,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 720,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 94,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 817,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 78
+  },
+  {
+    "Unknown1": 793,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 80,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 793,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 80,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 431,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 419,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 0,
+    "Unknown2": 36
+  },
+  {
+    "Unknown1": 432,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 34,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 728,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 32,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 729,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 41,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 718,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 69,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 699,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 64,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 699,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 66,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 724,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 81,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 843,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 414,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 18,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 414,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 4,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 427,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 9,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 454,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 0,
+    "Unknown2": 34
+  },
+  {
+    "Unknown1": 417,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 12,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 822,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 38,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 965,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 269,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 900,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 46,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 501,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 42
+  },
+  {
+    "Unknown1": 903,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 0,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 896,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 9,
+    "Unknown2": 15
+  },
+  {
+    "Unknown1": 504,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 106,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 3,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 468,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 61,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 509,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 34
+  },
+  {
+    "Unknown1": 527,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 82,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 784,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 34
+  },
+  {
+    "Unknown1": 784,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 26,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 672,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 70,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 672,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 79,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 672,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 2,
+    "Unknown2": 13
+  },
+  {
+    "Unknown1": 518,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 92,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 518,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 80,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 502,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 88,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 127,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 37,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 827,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 56,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 811,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 38,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 117,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 3,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 117,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 9,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 486,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 66,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 1014,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 1009,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 536,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 83,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 680,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 680,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 77,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 661,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 5,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 678,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 678,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 6,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 678,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 11,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 609,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 54
+  },
+  {
+    "Unknown1": 609,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 15,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 276,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 10,
+    "Unknown2": 23
+  },
+  {
+    "Unknown1": 210,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 280,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 42,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 94,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 14,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 476,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 50,
+    "Unknown2": 15
+  },
+  {
+    "Unknown1": 679,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 67,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 679,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 70,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 679,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 37,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 664,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 694,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 694,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 676,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 659,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 79,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 657,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 83,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 657,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 69,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 657,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 2,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 682,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 16,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 667,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 15,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 282,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 927,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 78,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 925,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 54,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 907,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 51,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 508,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 66,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 123,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 17,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 924,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 65,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 85,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 685,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 23,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 685,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 685,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 25,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 666,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 18,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 666,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 70,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 666,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 7,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 669,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 61,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 669,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 69,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 517,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 37,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 845,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 32,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 692,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 24,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 692,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 18,
+    "Unknown2": 68
+  },
+  {
+    "Unknown1": 668,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 31,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 986,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 87,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 985,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 75,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 31,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 25,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 31,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 3,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 31,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 29,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 23,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 29,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 12,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 29,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 22,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 25,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 25,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 28,
+    "Unknown2": 11
+  },
+  {
+    "Unknown1": 183,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 41,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 183,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 73,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 532,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 71,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 697,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 81,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 535,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 80,
+    "Unknown2": 5
+  },
+  {
+    "Unknown1": 638,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 638,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 370,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 8,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 627,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 26,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 514,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 72,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 352,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 72
+  },
+  {
+    "Unknown1": 135,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 29,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 135,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 1,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 474,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 7,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 994,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 33,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 993,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 95,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 898,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 0,
+    "Unknown2": 11
+  },
+  {
+    "Unknown1": 992,
+    "Sex": "F",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 293,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 293,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 35,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 46,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 39,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 46,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 31,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 41,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 25,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 41,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 15,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 41,
+    "Sex": "F",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 2,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 990,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 90,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 45,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 30,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 45,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 2,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 45,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 18,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 892,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 910,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 991,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 91,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 214,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 43,
+    "Unknown2": 1
+  },
+  {
+    "Unknown1": 915,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 80,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 891,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 55,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 913,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 77,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 914,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 65,
+    "Unknown2": 7
+  },
+  {
+    "Unknown1": 218,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 98,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 217,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 71,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 216,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 52,
+    "Unknown2": 5
+  },
+  {
+    "Unknown1": 215,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 94,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 223,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 93,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 222,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 94,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 221,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 96,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 219,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "facom49010",
+    "Grade": 30,
+    "Unknown2": 13
+  },
+  {
+    "Unknown1": 909,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 88,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 988,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 50,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 292,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 37,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 292,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 21,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 912,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 87,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 905,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 62,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 908,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 91,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 989,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 79,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 34,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 31,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 34,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 3,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 987,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 72,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 632,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 44,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 287,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 64,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 287,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 50,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 904,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 74,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 446,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 25,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 290,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 69,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 290,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 79,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 901,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 54,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 289,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 902,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 79,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 897,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 80,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 899,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 83,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 894,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 96,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 895,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 66,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 459,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 1,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 874,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 0,
+    "Unknown2": 52
+  },
+  {
+    "Unknown1": 721,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 39,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 709,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 60,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 87,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 43,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 726,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 43,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 461,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 466,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 89,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 566,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 65,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 636,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 635,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 68,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 637,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 12,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 637,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 78,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 364,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 99,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 364,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 71,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 400,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 0,
+    "Unknown2": 46
+  },
+  {
+    "Unknown1": 358,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 28,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 358,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 33,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 361,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 361,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 64,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 361,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 360,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 22,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 360,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 360,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 360,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 17,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 360,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 8,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 972,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 29,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 258,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 31,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 258,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 4,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 974,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 982,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 411,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 75,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 409,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 16,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 366,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 72,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 366,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 64,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 366,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 61,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 365,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 27,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 640,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 25,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 371,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 19,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 371,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 371,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 12,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 371,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 42
+  },
+  {
+    "Unknown1": 371,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 25,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 266,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 266,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 81,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 369,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 15,
+    "Unknown2": 32
+  },
+  {
+    "Unknown1": 369,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 74,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 369,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 70,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 426,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 0,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 367,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 367,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 75,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 448,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 15,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 639,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 14,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 639,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 639,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 272,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 41,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 505,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 478,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 478,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 45,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 275,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 274,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 38,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 126,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 12,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 495,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 77,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 487,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 92,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 401,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 2,
+    "Unknown2": 40
+  },
+  {
+    "Unknown1": 401,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 374,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 77,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 374,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 80,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 399,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 0,
+    "Unknown2": 44
+  },
+  {
+    "Unknown1": 373,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 5,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 373,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 54,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 373,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 455,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 84,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 36,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 83,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 37,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 325,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 46,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 325,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 18,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 325,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 42
+  },
+  {
+    "Unknown1": 438,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 61,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 362,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 25,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 362,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 67,
+    "Unknown2": 7
+  },
+  {
+    "Unknown1": 43,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 37,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 444,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 42,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 327,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 37,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 428,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 11,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 506,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 64,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 472,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 71,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 481,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 77,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 44,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 39,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 445,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 62,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 422,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 7,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 439,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 1,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 423,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 7,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 413,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 0,
+    "Unknown2": 39
+  },
+  {
+    "Unknown1": 628,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 628,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 13,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 628,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 60
+  },
+  {
+    "Unknown1": 628,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 570,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 27,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 570,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 33,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 570,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 630,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 630,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 630,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 25,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 630,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 36,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 572,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 10,
+    "Unknown2": 32
+  },
+  {
+    "Unknown1": 572,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 24,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 28,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 35,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 28,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 64,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 30,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 47,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 30,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 88,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 84,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 35,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 84,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 10,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 84,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 10,
+    "Unknown2": 44
+  },
+  {
+    "Unknown1": 626,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 626,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 322,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 22,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 322,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 72
+  },
+  {
+    "Unknown1": 322,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 2,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 477,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 82,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 485,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 78,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 511,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 78,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 469,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 65,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 119,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 119,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 21,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 470,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 70,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 32,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 44,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 418,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 15,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 434,
+    "Sex": "F",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 65,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 33,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 71,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 35,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 354,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 53,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 354,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 354,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 631,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 22,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 357,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 48
+  },
+  {
+    "Unknown1": 357,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 100,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 357,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 72
+  },
+  {
+    "Unknown1": 866,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 355,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 95,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 355,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 81,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 355,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 403,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 16,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 629,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 70,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 629,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 72,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 813,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 21,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 813,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 854,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 649,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 62,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 61,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 335,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 44,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 394,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 91,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 394,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 336,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 53,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 646,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 63,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 786,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 14,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 786,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 63,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 30,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 63,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 645,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 645,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 71,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 801,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 801,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 35,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 338,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 72,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 647,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 41,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 647,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 67,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 647,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 3,
+    "Unknown2": 36
+  },
+  {
+    "Unknown1": 647,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 4,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 67,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 21,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 67,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 52,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 395,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 50,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 395,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 395,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 61,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 782,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 68,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 782,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 69,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 392,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 63,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 392,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 66,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 393,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 34,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 393,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 393,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 893,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 43,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 523,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 50,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 68,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 46,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 68,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 65,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 798,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 96,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 798,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 93,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 701,
+    "Sex": "F",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 8,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 701,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 74,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 701,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 842,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 44,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 47,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 74,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 490,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 93,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 490,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 50,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 72,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 803,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 88,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 803,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 76,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 714,
+    "Sex": "F",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 20,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 54,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 63,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 54,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 87,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 55,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 841,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 23,
+    "Unknown2": 34
+  },
+  {
+    "Unknown1": 809,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 75,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 809,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 61,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 1016,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 27,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 332,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 70,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 410,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 1,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 381,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 5,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 381,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 12,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 839,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 58
+  },
+  {
+    "Unknown1": 397,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 61,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 397,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 63,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 516,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 79,
+    "Unknown2": 1
+  },
+  {
+    "Unknown1": 555,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 34,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 475,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 42,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 559,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 41,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 554,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 7,
+    "Unknown2": 31
+  },
+  {
+    "Unknown1": 58,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 33,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 58,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 76,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 59,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 62,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 823,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 30,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 347,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 380,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 34,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 380,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 380,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 78,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 79,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 69,
+    "Unknown2": 7
+  },
+  {
+    "Unknown1": 379,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 31,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 379,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 379,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 3,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 467,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 348,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 42,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 348,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 81,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 382,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 46,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 382,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 64,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 382,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 56
+  },
+  {
+    "Unknown1": 40,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 30,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 40,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 377,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 100,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 377,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 64,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 457,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 376,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 35,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 376,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 376,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 349,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 46,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 349,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 28,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 188,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 66,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 378,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 24,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 378,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 72,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 378,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 49,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 378,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 16,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 375,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 375,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 81,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 375,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 77,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 109,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 11,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 548,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 21,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 383,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 76,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 383,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 73,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 342,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 74,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 70,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 62,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 390,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 35,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 390,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 51,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 72,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 63,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 391,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 19,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 391,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 73,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 34,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 451,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 3,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 643,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 74,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 52,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 385,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 88,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 385,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 77,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 385,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 642,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 49,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 642,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 67,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 76,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 36,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 388,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 31,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 388,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 386,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 16,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 386,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 66,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 386,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 386,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 8,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 122,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 384,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 384,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 34,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 525,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 86,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 341,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 38,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 69,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 34,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 88,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 39,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 190,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 63,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 19,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 61,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 10,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 40,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 10,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 77,
+    "Unknown2": 9
+  },
+  {
+    "Unknown1": 13,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 35,
+    "Unknown2": 21
+  },
+  {
+    "Unknown1": 13,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 64,
+    "Unknown2": 17
+  },
+  {
+    "Unknown1": 883,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 3,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 879,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 61,
+    "Unknown2": 5
+  },
+  {
+    "Unknown1": 521,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 0,
+    "Unknown2": 60
+  },
+  {
+    "Unknown1": 1013,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 32
+  },
+  {
+    "Unknown1": 887,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 727,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 70,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 873,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 9,
+    "Unknown2": 35
+  },
+  {
+    "Unknown1": 873,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 8,
+    "Unknown2": 39
+  },
+  {
+    "Unknown1": 2,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 45,
+    "Unknown2": 15
+  },
+  {
+    "Unknown1": 2,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 71,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 97,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 40,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 97,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 34
+  },
+  {
+    "Unknown1": 78,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 12,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 125,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 16,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 911,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 66,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 192,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 62
+  },
+  {
+    "Unknown1": 1017,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 42,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 512,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 0,
+    "Unknown2": 56
+  },
+  {
+    "Unknown1": 163,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 4,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 163,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 79,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 169,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 40,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 169,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 88,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 142,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 151,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 7,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 151,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 53,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 130,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 63,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 136,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 68,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 132,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 67,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 129,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 40,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 129,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 16,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 150,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 17,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 150,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 22,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 51,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 22,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 15
+  },
+  {
+    "Unknown1": 700,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 194,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 534,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 72,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 531,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 17,
+    "Unknown2": 32
+  },
+  {
+    "Unknown1": 711,
+    "Sex": "F",
+    "Date": "2014-02",
+    "Subject": "facom49010",
+    "Grade": 51,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 331,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 85,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 331,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 592,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 10,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 333,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 46,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 333,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 8,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 333,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 61,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 780,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 7,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 337,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 80,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 623,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 623,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 334,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 84,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 604,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 15,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 606,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 610,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 5,
+    "Unknown2": 36
+  },
+  {
+    "Unknown1": 599,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 6,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 599,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 44
+  },
+  {
+    "Unknown1": 571,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 36,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 571,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 15,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 571,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 50,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 343,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 344,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 608,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 1,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 788,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 16,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 788,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 3,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 340,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 74,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 497,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 8,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 577,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 68,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 577,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 77,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 171,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 9,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 171,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 54
+  },
+  {
+    "Unknown1": 600,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 68,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 600,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 1,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 622,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 28,
+    "Unknown2": 7
+  },
+  {
+    "Unknown1": 587,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 27,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 587,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 35,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 346,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 79,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 853,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 81,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 317,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 85,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 855,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 389,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 58
+  },
+  {
+    "Unknown1": 804,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 61,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 804,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 31,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 804,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 24,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 939,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 29,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 345,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 29,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 345,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 76,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 522,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 81,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 860,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 52
+  },
+  {
+    "Unknown1": 648,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 37,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 810,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 35,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 550,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 98,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 849,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 76,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 530,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 82,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 530,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 88,
+    "Unknown2": 7
+  },
+  {
+    "Unknown1": 852,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 80,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 847,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 85,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 605,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 605,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 13,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 624,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 34
+  },
+  {
+    "Unknown1": 598,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 3,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 698,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 22,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 698,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 62
+  },
+  {
+    "Unknown1": 607,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 17,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 588,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 82,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 588,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 63,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 594,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 11,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 621,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 34
+  },
+  {
+    "Unknown1": 164,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 619,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 2,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 574,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 19,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 876,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 78,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 134,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 5,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 134,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 13,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 783,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 783,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 4,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 783,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 3,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 16,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 36,
+    "Unknown2": 7
+  },
+  {
+    "Unknown1": 16,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 65,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 483,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 42
+  },
+  {
+    "Unknown1": 547,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 12,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 568,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 18,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 561,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 85,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 110,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 9,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 533,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 73,
+    "Unknown2": 9
+  },
+  {
+    "Unknown1": 560,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 85,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 565,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 56,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 881,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 10,
+    "Unknown2": 19
+  },
+  {
+    "Unknown1": 544,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 19,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 549,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 22,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 15,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 0,
+    "Unknown2": 57
+  },
+  {
+    "Unknown1": 551,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 97,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 82,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 541,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 50,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 260,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 260,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 23,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 569,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 31,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 564,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 12,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 553,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 19,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 556,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 15,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 567,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 68,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 545,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 14,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 552,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 20,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 93,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 115,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 563,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 50,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 91,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 464,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 11,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 158,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 51,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 158,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 83,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 166,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 39,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 166,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 18,
+    "Unknown2": 15
+  },
+  {
+    "Unknown1": 167,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 15,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 167,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 67,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 1015,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 2,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 270,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 84,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 460,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 7,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 21,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 0,
+    "Unknown2": 33
+  },
+  {
+    "Unknown1": 21,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 13,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 4,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 45,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 4,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 11
+  },
+  {
+    "Unknown1": 930,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 8,
+    "Unknown2": 21
+  },
+  {
+    "Unknown1": 846,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 34,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 846,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 615,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 58
+  },
+  {
+    "Unknown1": 848,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 189,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 54
+  },
+  {
+    "Unknown1": 189,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 67,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 189,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 42
+  },
+  {
+    "Unknown1": 562,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 50,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 453,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 60,
+    "Unknown2": 5
+  },
+  {
+    "Unknown1": 543,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 0,
+    "Unknown2": 54
+  },
+  {
+    "Unknown1": 546,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 21,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 175,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 38,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 175,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 67,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 191,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 54,
+    "Unknown2": 11
+  },
+  {
+    "Unknown1": 191,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 203,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 6,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 203,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 54
+  },
+  {
+    "Unknown1": 179,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 46,
+    "Unknown2": 46
+  },
+  {
+    "Unknown1": 179,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 850,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 87,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 211,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 32,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 211,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 2,
+    "Unknown2": 29
+  },
+  {
+    "Unknown1": 211,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 1,
+    "Unknown2": 52
+  },
+  {
+    "Unknown1": 580,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 40
+  },
+  {
+    "Unknown1": 580,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 589,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 43
+  },
+  {
+    "Unknown1": 781,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 49,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 435,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 46,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 479,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 75,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 479,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 41,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 209,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 576,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 576,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 24,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 581,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 15,
+    "Unknown2": 13
+  },
+  {
+    "Unknown1": 581,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 617,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 1010,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 2,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 524,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 78,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 524,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 77,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 590,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 6,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 406,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 0,
+    "Unknown2": 34
+  },
+  {
+    "Unknown1": 593,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 1011,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 12,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 526,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 78,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 526,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 84,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 620,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 1,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 695,
+    "Sex": "F",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 34
+  },
+  {
+    "Unknown1": 695,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 56
+  },
+  {
+    "Unknown1": 515,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 79,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 515,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 87,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 575,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 35,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 575,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 779,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 91,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 201,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 12,
+    "Unknown2": 50
+  },
+  {
+    "Unknown1": 201,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 529,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 4,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 529,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 1,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 482,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 48
+  },
+  {
+    "Unknown1": 482,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 44
+  },
+  {
+    "Unknown1": 861,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 1,
+    "Unknown2": 27
+  },
+  {
+    "Unknown1": 861,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 2,
+    "Unknown2": 32
+  },
+  {
+    "Unknown1": 917,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 23
+  },
+  {
+    "Unknown1": 790,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 74,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 856,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 79,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 858,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 64,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 197,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 13,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 197,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 124,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 124,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 24,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 465,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 66,
+    "Unknown2": 1
+  },
+  {
+    "Unknown1": 625,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 56
+  },
+  {
+    "Unknown1": 118,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 9,
+    "Unknown2": 15
+  },
+  {
+    "Unknown1": 118,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 184,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 29,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 184,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 70,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 184,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 47,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 184,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 59,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 602,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 430,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 45,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 540,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 84,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 540,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 79,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 601,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 2,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 112,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 36
+  },
+  {
+    "Unknown1": 112,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 2,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 706,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 706,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 1,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 583,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 408,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 66,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 408,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 2,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 597,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 1,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 597,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 95,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 95,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 74,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 95,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 3,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 612,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 5,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 612,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 42
+  },
+  {
+    "Unknown1": 493,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 15,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 493,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 2,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 578,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 3,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 1018,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 22,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 579,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 573,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 1,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 799,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 415,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 53,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 596,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 26,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 815,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 34
+  },
+  {
+    "Unknown1": 611,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 456,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 64,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 618,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 42,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 585,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 14,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 499,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 41,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 499,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 2,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 499,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 18,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 613,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 50
+  },
+  {
+    "Unknown1": 398,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 62,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 584,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 11,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 447,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi005",
+    "Grade": 1,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 582,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 46,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 859,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 52
+  },
+  {
+    "Unknown1": 160,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 54,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 160,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 62,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 196,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 31,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 196,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 65,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 277,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 73,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 956,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 70,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 154,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 198,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 13,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 198,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 50
+  },
+  {
+    "Unknown1": 351,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 1,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 957,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 69,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 156,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 61,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 634,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 37,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 634,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 42
+  },
+  {
+    "Unknown1": 955,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 81,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 155,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 2,
+    "Unknown2": 32
+  },
+  {
+    "Unknown1": 958,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 70,
+    "Unknown2": 1
+  },
+  {
+    "Unknown1": 144,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 7,
+    "Unknown2": 44
+  },
+  {
+    "Unknown1": 149,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 53,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 149,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 148,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 193,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 44
+  },
+  {
+    "Unknown1": 193,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 13,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 193,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 30,
+    "Unknown2": 39
+  },
+  {
+    "Unknown1": 193,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 10,
+    "Unknown2": 48
+  },
+  {
+    "Unknown1": 153,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 8,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 153,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 5
+  },
+  {
+    "Unknown1": 153,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 39,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 152,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 47,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 152,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 99,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 195,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 756,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 7,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 185,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 54,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 185,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 775,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 8,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 147,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 187,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 53,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 187,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 62,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 778,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 35,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 146,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 64
+  },
+  {
+    "Unknown1": 186,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 396,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 496,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 66,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 496,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 27,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 111,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 11,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 744,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 20,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 107,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 19,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 107,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 96,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 12,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 743,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 41,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 768,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 735,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 21,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 737,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 24,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 745,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 14,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 931,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 74,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 932,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 82,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 283,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 75,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 928,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 54,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 145,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 5,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 145,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 402,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 929,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 83,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 281,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 83,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 281,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 50,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 959,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 34,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 960,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 63,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 140,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 268,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 66,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 268,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 81,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 948,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 139,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 35,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 139,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 21,
+    "Unknown2": 11
+  },
+  {
+    "Unknown1": 180,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 63,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 539,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 85,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 963,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 68,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 143,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 61,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 182,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 284,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 284,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 34,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 141,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 69,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 947,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 40,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 133,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 61,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 174,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 50,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 174,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 73,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 138,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 1,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 138,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 138,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 3,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 138,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 39,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 177,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 62,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 644,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 13,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 137,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 30,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 137,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 69,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 178,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 31,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 178,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 61,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 271,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 857,
+    "Sex": "F",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 21,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 200,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 61,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 170,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 67,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 750,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 15,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 131,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 55,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 131,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 64,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 172,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 25,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 172,
+    "Sex": "F",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 19,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 172,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 23,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 757,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 7,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 751,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 47,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 751,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 80,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 772,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 8,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 770,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 28,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 761,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 17,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 98,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 57,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 736,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 62,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 736,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 94,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 814,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 77,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 954,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 75,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 967,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 952,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 74,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 953,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 54,
+    "Unknown2": 11
+  },
+  {
+    "Unknown1": 128,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 4,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 128,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 75,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 951,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 52,
+    "Unknown2": 5
+  },
+  {
+    "Unknown1": 24,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 53,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 24,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 70,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 262,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 262,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 949,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 88,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 259,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 23,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 259,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 3,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 950,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 62,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 970,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 67,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 542,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 10,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 938,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 969,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 537,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 84,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 968,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 2,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 257,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 61,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 257,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 39,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 973,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 261,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 34,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 261,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 20,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 971,
+    "Sex": "F",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 62,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 513,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 60,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 513,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 13,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 730,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 519,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 79,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 473,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 208,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 73,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 121,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 80,
+    "Unknown2": 7
+  },
+  {
+    "Unknown1": 740,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 35,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 101,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 56,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 116,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 56,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 767,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 6,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 747,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 33,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 114,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 68,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 491,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 491,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 41,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 739,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 9,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 494,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 50,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 494,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 56,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 488,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 79,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 488,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 55,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 945,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 66,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 946,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 44,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 943,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 83,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 944,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 264,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 82,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 264,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 44,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 263,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 92,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 263,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 49,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 942,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 46,
+    "Unknown2": 11
+  },
+  {
+    "Unknown1": 940,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 84,
+    "Unknown2": 1
+  },
+  {
+    "Unknown1": 975,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 5
+  },
+  {
+    "Unknown1": 941,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 82,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 18,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 42,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 18,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 812,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 19,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 812,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 20,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 980,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 17,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 33,
+    "Unknown2": 5
+  },
+  {
+    "Unknown1": 17,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 528,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 85,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 979,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 372,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 978,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 591,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi005",
+    "Grade": 12,
+    "Unknown2": 32
+  },
+  {
+    "Unknown1": 977,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 35
+  },
+  {
+    "Unknown1": 5,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 67,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 165,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 204,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 65,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 1,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 162,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 6,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 162,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 86,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 205,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 36,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 205,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 265,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 72,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 14,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 68,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 168,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 206,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 32,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 206,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 54,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 983,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 37,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 7,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 47,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 7,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 71,
+    "Unknown2": 7
+  },
+  {
+    "Unknown1": 207,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 981,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 35,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 157,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 65,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 199,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 11,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 199,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 61,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 763,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 746,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 17,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 3,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 46,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 3,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 70,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 774,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 15,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 159,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 12,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 202,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 754,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 1,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 878,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 61,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 120,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 51,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 83,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 6,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 99,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 30
+  },
+  {
+    "Unknown1": 749,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 76,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 749,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 90,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 748,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 9,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 86,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 4,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 86,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 23,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 176,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 66
+  },
+  {
+    "Unknown1": 176,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 72
+  },
+  {
+    "Unknown1": 176,
+    "Sex": "F",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 3,
+    "Unknown2": 36
+  },
+  {
+    "Unknown1": 176,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 58
+  },
+  {
+    "Unknown1": 89,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 25,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 734,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 7,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 769,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 20,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 762,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 762,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 75,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 273,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 65,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 641,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 23,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 884,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 267,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 70,
+    "Unknown2": 7
+  },
+  {
+    "Unknown1": 306,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 78,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 306,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 41,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 66,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 8,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 66,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 46,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 683,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 71,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 0,
+    "Unknown2": 40
+  },
+  {
+    "Unknown1": 71,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 16,
+    "Unknown2": 32
+  },
+  {
+    "Unknown1": 655,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 24,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 655,
+    "Sex": "F",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 655,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 1002,
+    "Sex": "F",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 64,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 21,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 64,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 10,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 863,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 86,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 1004,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 68,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 862,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 81,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 1003,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 407,
+    "Sex": "M",
+    "Date": "2017-02",
+    "Subject": "ggi017",
+    "Grade": 72,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 407,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 40,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 60,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 24,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 60,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 48,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 771,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 658,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 26,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 658,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 40,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 671,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 61,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 671,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 76,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 671,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 3,
+    "Unknown2": 15
+  },
+  {
+    "Unknown1": 670,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 5,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 691,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 14,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 691,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 656,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 651,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 651,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 4,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 301,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 67,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 301,
+    "Sex": "F",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 41,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 1001,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 79,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 57,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 45,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 57,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 16,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 57,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 1,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 688,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 72
+  },
+  {
+    "Unknown1": 302,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 15,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 998,
+    "Sex": "F",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 83,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 997,
+    "Sex": "F",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 1000,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 181,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 60
+  },
+  {
+    "Unknown1": 181,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 181,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "inf63",
+    "Grade": 10,
+    "Unknown2": 46
+  },
+  {
+    "Unknown1": 999,
+    "Sex": "F",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 39,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 503,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 503,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 996,
+    "Sex": "F",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 995,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 65,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 760,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 13,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 650,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 650,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 70,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 777,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 758,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 73,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 773,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 30,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 663,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 70,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 663,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 72,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 663,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 29,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 689,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 87,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 689,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 85,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 687,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 25,
+    "Unknown2": 22
+  },
+  {
+    "Unknown1": 677,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 353,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 48,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 353,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 654,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 690,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 690,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 71,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 675,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 80,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 279,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 0,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 278,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 6,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 0,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 42,
+    "Unknown2": 27
+  },
+  {
+    "Unknown1": 0,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 43,
+    "Unknown2": 34
+  },
+  {
+    "Unknown1": 888,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 84,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 1007,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 880,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 80,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 877,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 316,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 64,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 885,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 65,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 882,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 66,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 285,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 78,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 285,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 30,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 684,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 20,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 964,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 2,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 674,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 71,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 984,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 1,
+    "Unknown2": 20
+  },
+  {
+    "Unknown1": 387,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 8,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 653,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 71,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 653,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 653,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 41,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 660,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 32,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 660,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 29,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 673,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 12,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 976,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 39,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 1006,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 872,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 23,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 871,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 90,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 1005,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 61,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 314,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 40,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 314,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 61,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 875,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 92,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 75,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 23,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 75,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 7,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 75,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 868,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 76,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 307,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 307,
+    "Sex": "M",
+    "Date": "2010-01",
+    "Subject": "gsi014",
+    "Grade": 37,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 350,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 25,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 350,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 62
+  },
+  {
+    "Unknown1": 311,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 870,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 51,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 870,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 88,
+    "Unknown2": 11
+  },
+  {
+    "Unknown1": 869,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 71,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 864,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 93,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 867,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 865,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 77,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 681,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 681,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 665,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 662,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 662,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 64,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 662,
+    "Sex": "M",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 40,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 686,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 6,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 693,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 12,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 652,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 11,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 652,
+    "Sex": "M",
+    "Date": "2013-01",
+    "Subject": "gsi005",
+    "Grade": 41,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 492,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 50,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 492,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 484,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 33,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 484,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi037",
+    "Grade": 92,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 484,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi005",
+    "Grade": 22,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 484,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 7,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 484,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi015",
+    "Grade": 5,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 962,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 0,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 105,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 80,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 557,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 4,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 480,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 88,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 480,
+    "Sex": "M",
+    "Date": "2014-02",
+    "Subject": "gsi015",
+    "Grade": 33,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 81,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 47,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 294,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 86,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 108,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 61,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 100,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 15,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 42,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 24,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 42,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 51,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 42,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 66,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 961,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 16,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 48,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 35,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 48,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 28,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 296,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 41,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 295,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 28,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 368,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 20,
+    "Unknown2": 26
+  },
+  {
+    "Unknown1": 318,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 90,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 319,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 63,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 26,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 100,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 320,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 61,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 92,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 449,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 63,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 90,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 44,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 102,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 1
+  },
+  {
+    "Unknown1": 27,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 22,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 27,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 28,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 27,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 286,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 38,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 39,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 32,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 321,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 291,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 41,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 291,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 66,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 966,
+    "Sex": "F",
+    "Date": "2010-01",
+    "Subject": "inf63",
+    "Grade": 71,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 38,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 10,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 38,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 11,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 324,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 28,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 288,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 12,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 35,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 12,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 62,
+    "Unknown2": 9
+  },
+  {
+    "Unknown1": 323,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 74,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 11,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 17,
+    "Unknown2": 5
+  },
+  {
+    "Unknown1": 11,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 71,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 23,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 61,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 1008,
+    "Sex": "F",
+    "Date": "2013-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 40
+  },
+  {
+    "Unknown1": 20,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 70,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 356,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 62,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 356,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 359,
+    "Sex": "M",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 94,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 937,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 5,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 6,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 62,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 633,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi005",
+    "Grade": 31,
+    "Unknown2": 24
+  },
+  {
+    "Unknown1": 9,
+    "Sex": "F",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 78,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 326,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 33,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 8,
+    "Sex": "M",
+    "Date": "2009-01",
+    "Subject": "gem03",
+    "Grade": 0,
+    "Unknown2": 31
+  },
+  {
+    "Unknown1": 753,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 9
+  },
+  {
+    "Unknown1": 776,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 82,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 732,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 732,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 80,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 113,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 5,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 113,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 45,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 764,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 61,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 61,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 14,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 61,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 46,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 61,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 91,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 305,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 42,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 303,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 752,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 32
+  },
+  {
+    "Unknown1": 56,
+    "Sex": "M",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 18,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 56,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 3,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 300,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 1,
+    "Unknown2": 18
+  },
+  {
+    "Unknown1": 733,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 38
+  },
+  {
+    "Unknown1": 363,
+    "Sex": "F",
+    "Date": "2012-02",
+    "Subject": "gsi015",
+    "Grade": 18,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 935,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 62,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 918,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 76,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 934,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 47,
+    "Unknown2": 11
+  },
+  {
+    "Unknown1": 933,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 329,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 72,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 558,
+    "Sex": "F",
+    "Date": "2015-01",
+    "Subject": "gfm015",
+    "Grade": 5,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 104,
+    "Sex": "M",
+    "Date": "2016-02",
+    "Subject": "gsi015",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 462,
+    "Sex": "F",
+    "Date": "2016-02",
+    "Subject": "ggi017",
+    "Grade": 80,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 738,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 66,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 738,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 96,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 731,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 80,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 731,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 96,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 741,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 11,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 507,
+    "Sex": "M",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 69,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 507,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 766,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 44,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 742,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 0,
+    "Unknown2": 28
+  },
+  {
+    "Unknown1": 328,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 6
+  },
+  {
+    "Unknown1": 471,
+    "Sex": "F",
+    "Date": "2015-02",
+    "Subject": "gsi015",
+    "Grade": 0,
+    "Unknown2": 48
+  },
+  {
+    "Unknown1": 471,
+    "Sex": "F",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 64,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 755,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 755,
+    "Sex": "M",
+    "Date": "2015-01",
+    "Subject": "gsi015",
+    "Grade": 68,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 51,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 38,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 51,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 6,
+    "Unknown2": 12
+  },
+  {
+    "Unknown1": 51,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 299,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 49,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 44,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 49,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 17,
+    "Unknown2": 10
+  },
+  {
+    "Unknown1": 49,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 84,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 298,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 25,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 298,
+    "Sex": "F",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 68,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 297,
+    "Sex": "M",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 47,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 759,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 765,
+    "Sex": "M",
+    "Date": "2014-01",
+    "Subject": "gsi005",
+    "Grade": 88,
+    "Unknown2": 4
+  },
+  {
+    "Unknown1": 330,
+    "Sex": "M",
+    "Date": "2011-02",
+    "Subject": "gsi014",
+    "Grade": 55,
+    "Unknown2": 14
+  },
+  {
+    "Unknown1": 922,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 68,
+    "Unknown2": 3
+  },
+  {
+    "Unknown1": 926,
+    "Sex": "F",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 67,
+    "Unknown2": 7
+  },
+  {
+    "Unknown1": 53,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 30,
+    "Unknown2": 16
+  },
+  {
+    "Unknown1": 53,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 30,
+    "Unknown2": 8
+  },
+  {
+    "Unknown1": 921,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 30,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 919,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 60,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 52,
+    "Sex": "F",
+    "Date": "2011-01",
+    "Subject": "gsi014",
+    "Grade": 60,
+    "Unknown2": 2
+  },
+  {
+    "Unknown1": 52,
+    "Sex": "F",
+    "Date": "2010-02",
+    "Subject": "inf63",
+    "Grade": 49,
+    "Unknown2": 0
+  },
+  {
+    "Unknown1": 923,
+    "Sex": "M",
+    "Date": "2009-02",
+    "Subject": "gem03",
+    "Grade": 11,
+    "Unknown2": 3
+  }
+]
