@@ -1,0 +1,15 @@
+application : Education Data Visualization
+version : 1
+runtime : python3.6
+api_version : 1
+threadsafe: true
+
+handlers:
+- url: /static
+  static_dir: educationapp/static
+
+- url: .*
+  script : educationapp.app
+libraries:
+- name: d3js
+  version: latest
