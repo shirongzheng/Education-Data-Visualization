@@ -9,7 +9,7 @@
 > $ source venv/bin/activate
 
 **cd into the Education**:
-> $ cd Desktop/Capstone-Project
+> $ cd Desktop/Education-Data-Visualization
 
 **run website**:
 > $ python3 routes.py
