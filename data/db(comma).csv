@@ -1,4 +1,4 @@
-Unknown1,Sex,Date,Subject,Grade,Unknown2
+StudentID,Sex,Date,Subject,Grade,Attendence
 173,M,2009-01,inf63,38,4
 173,M,2009-02,inf63,97,6
 312,M,2010-02,inf63,45,4
