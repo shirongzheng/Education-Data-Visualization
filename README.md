@@ -12,4 +12,4 @@ Website: https://education-data-visualization.herokuapp.com
 > $ cd Desktop/Education-Data-Visualization
 
 **run website**:
-> $ python3 application.py
+> $ python3 routes.py
