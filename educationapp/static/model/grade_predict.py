@@ -1,6 +1,7 @@
 import pandas as pd
 import re
-df = pd.read_csv('../data/db.csv')
+from sklearn.externals import joblib
+df = pd.read_csv('H:/SP/Capstone-Project/educationapp/static/data/db.csv')
 df.Sex=df.Sex.map({'M':1,'F':0})
 # for i in range(df.Subject.size):
 # 	df.Subject[i]=int(str(re.findall('\d+', df.Subject[i] )[0]))
