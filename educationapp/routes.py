@@ -4,6 +4,7 @@ import pandas as pd
 import requests
 import json
 from sklearn.externals import joblib
+import jsonify
 
 @app.route("/")
 def index():
@@ -12,6 +13,7 @@ def index():
 def predict():
     # 取得傳入的參數並轉成 DataFrame    
     json_ = request.form.to_dict()
+    print(json_)
     query_df = pd.DataFrame([json_])
     # 簡單的資料處理（編碼類別型變數、確認欄位、補值等等）
     # query = pd.get_dummies(query_df)
@@ -23,4 +25,4 @@ def predict():
     # 預測
     rfr=joblib.load('../Capstone-Project/educationapp/static/model/model1.pkl')
     prediction = rfr.predict(query_df).tolist()
-    return jsonify({'prediction': prediction})
+    return json.dumps({'prediction': prediction})

@@ -8,9 +8,9 @@ df.Sex=df.Sex.map({'M':1,'F':0})
 df.Subject=df.Subject.map({'gem03':0,'gsi014':1,'gsi015':2,'inf63':3,'facom49010':4,'ggi017':5,'ggi005':6,'gsi037':7,'gfm015':8,'gsi005':9})
 # print(x=df.loc[:,['StudentID','Sex','Subject','Attendence']])
 x=df.loc[:,['StudentID','Sex','Subject','Attendence']]
-y=df.loc[:,['Grade']]
+y=df.Grade
 
-
+# print(y)
 # print(x.Subject)
 from sklearn.ensemble import RandomForestRegressor
 rfr=RandomForestRegressor()
