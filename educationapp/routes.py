@@ -6,3 +6,7 @@ import json
 def index():
     return render_template("index.html")
 
+@app.route("/bargraph")
+def bargraph():
+    return render_template("bargraph.html")
+
