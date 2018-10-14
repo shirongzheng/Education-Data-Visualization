@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet'>
+   <link href="{{ url_for('static', filename='css/bootstrap.min 2.css') }}" rel="stylesheet" > 
+   <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet" > 
+   <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" > 
+   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" /> 
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script> 
+</head> 
+<meta charset="utf-8">
+<style>
+	.bar { fill: steelblue; }
+</style>
+
+<body>
+  
+  {% block content %}
+  
+  {% endblock %}
+
+</body>
+</html>
