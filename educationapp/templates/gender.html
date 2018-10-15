@@ -15,13 +15,13 @@
             g = svg.append("g").attr("transform", "translate(20,0)");       // move right 20px.
 
     // x-scale and x-axis
-    var experienceName = ["", "Basic<20","Alright<40","Handy<60","Expert<80","Guru<100"];
+    var experienceName = ["", "","","","",""];
     var formatSkillPoints = function (d) {
         return experienceName[d % 6];
     }
     var xScale =  d3.scaleLinear()
-            .domain([0,5])
-            .range([0, 400]);
+            .domain([0, 100])
+            .range([0, 280]);
 
     var xAxis = d3.axisTop()
             .scale(xScale)
@@ -40,7 +40,7 @@
     var stratify = d3.stratify()            // This D3 API method gives cvs file flat data array dimensions.
             .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
-    d3.csv("./static/data/skillsdata.csv", row, function(error, data) {
+    d3.csv("./static/data/gender.csv", row, function(error, data) {
         if (error) throw error;
 
         var root = stratify(data);
@@ -91,7 +91,7 @@
                 .attr("x", 8)
                 .style("text-anchor", "start")
                 .text(function (d) {
-                    return d.data.id.substring(d.data.id.lastIndexOf(".") + 1);
+                    return d.data.id.substring(d.data.id.lastIndexOf(".") + 1) + " - " + d.data.value;
                 });
 
         // Write down text for every parent datum
@@ -127,18 +127,18 @@
                 .style("stroke","black");
 
         // The moving ball
-        var ballG = svg.insert("g")
+/*        var ballG = svg.insert("g")
                 .attr("class","ballG")
                 .attr("transform", "translate(" + 1100 + "," + height/2 + ")");
         ballG.insert("circle")
                 .attr("class","shadow")
                 .style("fill","steelblue")
-                .attr("r", 5);
+                .attr("r", 8);
         ballG.insert("text")
                 .style("text-anchor", "middle")
                 .attr("dy",5)
                 .text("0.0");
-
+*/
         // Animation functions for mouse on and off events.
         d3.selectAll(".node--leaf-g")
                 .on("mouseover", handleMouseOver)
@@ -182,5 +182,6 @@
             color: d.color
         };
     }
+
 </script>
 {% endblock %}
