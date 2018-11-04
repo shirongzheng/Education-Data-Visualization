@@ -1,0 +1,30 @@
+L1 regulation perceptron accuracy is  0.007058823529411765
+L2 regulation perceptron accuracy is  0.007058823529411765
+Elasticnet regulation perceptron accuracy is  0.007058823529411765
+No regulation perceptron accuracy is  0.007058823529411765
+
+Linear Regression
+Accuracy 0.3300073795338081
+Ridge Regression
+Accuracy 0.3300011124468204
+Kernelridge 
+Accuracy 0.3321815646656807
+LASSO Regressor
+Accuracy 0.32772770652496896
+ElasticNet 
+Accuracy 0.3277348342733638
+DecisionTreeRegressor 
+Accuracy 0.3023900739926281
+RandomForestRegressor 
+Accuracy 0.4254688312433863
+MLPRegressor
+r value= -1.796319060381856
+
+pred_percep=No regulation perceptron
+pred_LR=Linear Regression
+pred_RR=Ridge Regression
+pred_KRR=Kernelridge Regression
+pred_elastic_net=ElasticNet
+pred_tree=DecisionTreeRegressor 
+pred_forest=RandomForestRegressor 
+pred_mlpr=MLPRegressor

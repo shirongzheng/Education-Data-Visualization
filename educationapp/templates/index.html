@@ -1,20 +1,37 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<main class="hero-section">
-    <div class="container">
-
-      <div class="section-content">
-        <h2></h2>
-        
-      </div>
 
 
-    </div>
-  </main>
+<body background="./static/img/data.jpg">
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Education Data Visualization</h1> 
+
+  </div>
   
-  <script>
-    
-  </script>
+</div>
 
+</br>
+<div class= "row text-center">
+<div class= "col-md-4">
+<form action="/bargraph" class="inline">
+    <button class="btn btn-primary btn-lg submit-button" >1st Semester VS 2nd Semester</button>
+</form>
+</div>
+<div class= "col-md-4">
+<form action="/gender" class="inline">
+    <button class="btn btn-primary btn-lg submit-button" >Male VS Female</button>
+</form>
+</div>
+<div class= "col-md-4">
+<form action="/bargraph" class="inline">
+    <button class="btn btn-primary btn-lg submit-button" >Junior VS Senior</button>
+</form>
+</div>
+</div>
+
+</body>
 {% endblock %}
+
