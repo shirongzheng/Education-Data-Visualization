@@ -1,4 +1,4 @@
-var margin = { top: 50, right: 0, bottom: 100, left: 30 },
+var margin = { top: 50, right: 0, bottom: 100, left: 80 },
           width = 960 - margin.left - margin.right,
           height = 430 - margin.top - margin.bottom,
           gridSize = Math.floor(width / 24),
@@ -68,7 +68,7 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
               .style("fill", function(d) { return colorScale(d.value); });
 
           cards.select("title").text(function(d) { return d.value; });
-          
+
           cards.exit().remove();
 
           var legend = svg.selectAll(".legend")
@@ -82,21 +82,23 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
             .attr("y", height)
             .attr("width", legendElementWidth)
             .attr("height", gridSize / 2)
+            .attr("transform","translate(-10,85)")
             .style("fill", function(d, i) { return colors[i]; });
 
           legend.append("text")
             .attr("class", "mono")
             .text(function(d) { return "≥ " + Math.round(d); })
             .attr("x", function(d, i) { return legendElementWidth * i; })
-            .attr("y", height + gridSize);
+            .attr("y", height + 98);
+
 
           legend.exit().remove();
 
-        });  
+        });
       };
 
       heatmapChart(datasets[0]);
-      
+
       var datasetpicker = d3.select("#dataset-picker").selectAll(".dataset-button")
         .data(datasets);
 
