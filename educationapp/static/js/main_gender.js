@@ -110,3 +110,13 @@ var margin = { top: 50, right: 0, bottom: 100, left: 80 },
         .on("click", function(d) {
           heatmapChart(d);
         });
+
+      var menuDiv = d3.select("body");
+      var menuButton = menuDiv.append("button")
+          .text("Statistics")
+          .attr("id", "buttonCentre")
+          .classed("button", true)
+          .on('click', function(){
+          //here this is the button
+          d3.select(this).style("background-color", "#ccc")
+      });
