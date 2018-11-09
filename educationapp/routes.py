@@ -10,3 +10,6 @@ def index():
 def bargraph():
     return render_template("bargraph.html")
 
+@app.route("/gender")
+def gender():
+    return render_template("gender.html")
