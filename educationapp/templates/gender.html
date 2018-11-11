@@ -33,21 +33,23 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
           .data(days)
           .enter().append("text")
             .text(function (d) { return d; })
-            .attr("x", 0)
             .attr("y", function (d, i) { return i * gridSize; })
             .style("text-anchor", "end")
-            .attr("transform", "translate(-6," + gridSize / 2 + ")")
+            .attr("transform", "translate(-6," + gridSize / 2 + ")" )
             .attr("class", function (d, i) { return ((i >= 0 && i <= 4) ? "dayLabel mono axis axis-workweek" : "dayLabel mono axis"); });
 
       var timeLabels = svg.selectAll(".timeLabel")
           .data(times)
           .enter().append("text")
             .text(function(d) { return d; })
-            .attr("x", function(d, i) { return i * gridSize; })
-            .attr("y", 0)
+            //.attr("x", "transform", "rotate(-90)")
+            .attr("x", function(d, i) { return i * gridSize })
+            .attr("transform", function(d, i) { return  "rotate(-60)" })
             .style("text-anchor", "middle")
             .attr("transform", "translate(" + gridSize / 2 + ", -6)")
-            .attr("class", function(d, i) { return ((i >= 7 && i <= 16) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"); });
+            //.attr("transform", "rotate(-65)")
+            .attr("class", function(d, i) { return ((i >= 7 && i <= 16) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"); })
+            ;
 
       var heatmapChart = function(tsvFile) {
         d3.tsv(tsvFile,
@@ -82,7 +84,7 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
               .style("fill", function(d) { return colorScale(d.value); });
 
           cards.select("title").text(function(d) { return d.value; });
-          
+
           cards.exit().remove();
 
           var legend = svg.selectAll(".legend")
@@ -106,11 +108,11 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
 
           legend.exit().remove();
 
-        });  
+        });
       };
 
       heatmapChart(datasets[0]);
-      
+
       var datasetpicker = d3.select("#dataset-picker").selectAll(".dataset-button")
         .data(datasets);
 
@@ -119,6 +121,7 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
         .attr("value", function(d){ return "Dataset " + d })
         .attr("type", "button")
         .attr("class", "dataset-button")
+        .style("background", "blue")
         .on("click", function(d) {
           heatmapChart(d);
         });
