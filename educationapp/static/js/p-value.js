@@ -1,16 +1,3 @@
-{% extends "layout.html" %}
-
-{% block content %}
-<!-- svg of gender.js -->
-<!-- <svg width="960" height="1100"></svg> -->
-
-<div id="chart"></div>
-<div id="dataset-picker"></div>
-
-
-<!-- <script src="static/js/p-value.js"></script>  -->
-
-<script>
 var margin = { top: 50, right: 0, bottom: 100, left: 30 },
           width = 1960 - margin.left - margin.right,
           height = 430 - margin.top - margin.bottom,
@@ -20,8 +7,8 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
           colors = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"], // alternatively colorbrewer.YlGnBu[9]
           days = ["Sem1", "Sem2"],
           times = ["gem03 2009", "gsi014 2010","gsi014 2011", "gsi015 2012", "gsi015 2013","gsi015 2014","gsi015 2015","gsi015 2016","inf63 2009", "inf63 2010",
-      "facom49010 2011", "facom49010 2014", "ggi017 2016", "ggi017 2017", "ggi005 2017", "gsi037 2015", "gfm015 2015", "gsi005 2011", "gsi005 2012","gsi005 2013","gsi005 2014"];
-          datasets = ["./static/data/Male.tsv", "./static/data/Female.tsv", "./static/data/P-value.tsv"];
+		  "facom49010 2011", "facom49010 2014", "ggi017 2016", "ggi017 2017", "ggi005 2017", "gsi037 2015", "gfm015 2015", "gsi005 2011", "gsi005 2012","gsi005 2013","gsi005 2014"];
+          datasets = ["Male.tsv", "Female.tsv", "P-value.tsv"];
 
       var svg = d3.select("#chart").append("svg")
           .attr("width", width + margin.left + margin.right)
@@ -122,6 +109,3 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
         .on("click", function(d) {
           heatmapChart(d);
         });
-</script>
-
-{% endblock %}
