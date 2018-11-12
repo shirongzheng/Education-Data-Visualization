@@ -42,12 +42,12 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
           .data(times)
           .enter().append("text")
             .text(function(d) { return d; })
-            //.attr("x", "transform", "rotate(-90)")
+            .attr("x", "transform", "rotate(-90)")
             .attr("x", function(d, i) { return i * gridSize })
-            .attr("transform", function(d, i) { return  "rotate(-60)" })
+            //.attr("transform", function(d, i) { return  "rotate(-60)" })
             .style("text-anchor", "middle")
             .attr("transform", "translate(" + gridSize / 2 + ", -6)")
-            //.attr("transform", "rotate(-65)")
+            //.attr("transform", function(d) { return "translate", "rotate(-60)" })
             .attr("class", function(d, i) { return ((i >= 7 && i <= 16) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"); })
             ;
 
@@ -84,6 +84,8 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
               .style("fill", function(d) { return colorScale(d.value); });
 
           cards.select("title").text(function(d) { return d.value; });
+
+          //$("cards").on("click", function());
 
           cards.exit().remove();
 
@@ -125,6 +127,11 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
         .on("click", function(d) {
           heatmapChart(d);
         });
+function zoom() {
+  alert("clicked test");
+}
+$("cards").on("click", zoom);
+
 </script>
 
 {% endblock %}
