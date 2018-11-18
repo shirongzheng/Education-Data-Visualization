@@ -3,14 +3,17 @@
 {% block content %}
 <!-- svg of gender.js -->
 <!-- <svg width="960" height="1100"></svg> -->
-
+<!-- -->
 <div id="chart"></div>
 <div id="dataset-picker"></div>
 
-
+<form method="get" action="/zoomable">
+    <button type="submit">Zoomable Tree Map</button>
+</form>
 <!-- <script src="static/js/p-value.js"></script>  -->
 
 <script>
+// heatmap
 var margin = { top: 50, right: 0, bottom: 100, left: 30 },
           width = 1960 - margin.left - margin.right,
           height = 430 - margin.top - margin.bottom,
@@ -137,7 +140,6 @@ function zoom() {
 //$("Legend").on("click", function() {
 //  alert("click test");
 //});
-
 
 </script>
 
