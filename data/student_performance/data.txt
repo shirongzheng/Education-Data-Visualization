@@ -1,0 +1,2 @@
+iso_mat.csv/iso_por.csv : include all features ,only use quantity data to isomap
+iso_num_mat.csv/iso_num_por.csv: include only quantity data and map to isomap
