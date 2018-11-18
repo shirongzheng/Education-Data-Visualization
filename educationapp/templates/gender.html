@@ -3,14 +3,17 @@
 {% block content %}
 <!-- svg of gender.js -->
 <!-- <svg width="960" height="1100"></svg> -->
-
+<!-- -->
 <div id="chart"></div>
 <div id="dataset-picker"></div>
 
-
+<form method="get" action="/zoomable">
+    <button type="submit">Zoomable Tree Map</button>
+</form>
 <!-- <script src="static/js/p-value.js"></script>  -->
 
 <script>
+// heatmap
 var margin = { top: 50, right: 0, bottom: 100, left: 30 },
           width = 1960 - margin.left - margin.right,
           height = 430 - margin.top - margin.bottom,
@@ -124,7 +127,22 @@ var margin = { top: 50, right: 0, bottom: 100, left: 30 },
         .style("background", "blue")
         .on("click", function(d) {
           heatmapChart(d);
-        });
+        }); 
+  
+
+     /* var menuDiv = d3.select("body");
+      var menuButton = menuDiv.append("button")
+          .text("Zoomable")
+          .attr("id", "buttonCentre")
+          .classed("button", true)
+          .on('click', function(){
+          //here this is the button
+          d3.select(this).style("background-color", "#ccc")
+      }); */
+
+
+
+ 
 </script>
 
 {% endblock %}
