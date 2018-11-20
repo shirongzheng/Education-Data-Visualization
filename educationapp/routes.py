@@ -17,3 +17,7 @@ def gender():
 @app.route("/zoomable")
 def zoomable():
     return render_template("zoomable.html")
+
+@app.route("/treemap")
+def treemap():
+    return render_template("treemap.html")
