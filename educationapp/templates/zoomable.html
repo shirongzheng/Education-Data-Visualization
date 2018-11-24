@@ -8,7 +8,6 @@
 
 <script>
 
- // zoomable tree
 
 window.addEventListener('message', function(e) {
     var opts = e.data.opts,
@@ -254,15 +253,14 @@ function main(o, data) {
 }
 
 if (window.location.hash === "") {
-    d3.json("./static/data/countries.json", function(err, res) {
+    d3.json("./static/data/course.json", function(err, res) {
         if (!err) {
             console.log(res);
-            var data = d3.nest().key(function(d) { return d.region; }).key(function(d) { return d.subregion; }).entries(res);
-            main({title: "World Population"}, {key: "World", values: data});
+            var data = d3.nest().key(function(d) { return d.class_name; }).key(function(d) { return d.date; }).entries(res);
+            main({title: "Student Grade Compare By Gender"}, {key: "Course", values: data});
         }
     });
 }
-
  
 </script>
 
