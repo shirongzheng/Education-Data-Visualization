@@ -12,15 +12,15 @@
     <script src="static/js/jquery-1.11.1.js"></script>
 
    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet'>
-   <link href="{{ url_for('static', filename='css/skel.css') }}" rel="stylesheet" > 
-   <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" > 
-   <link href="{{ url_for('static', filename='css/style-wide.css') }}" rel="stylesheet" > 
-  <link href="{{ url_for('static', filename='css/style-noscript.css') }}" rel="stylesheet" > 
-   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" /> 
-   <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script> 
+   <link href="{{ url_for('static', filename='css/skel.css') }}" rel="stylesheet" >
+   <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" >
+   <link href="{{ url_for('static', filename='css/style-wide.css') }}" rel="stylesheet" >
+  <link href="{{ url_for('static', filename='css/style-noscript.css') }}" rel="stylesheet" >
+   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
    <script src="https://d3js.org/d3.v3.min.js"></script>
    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-</head> 
+</head>
 <meta charset="utf-8">
 <style>
 
@@ -77,7 +77,7 @@
 /* gender d3 css */
     rect.bordered {
         stroke: #E6E6E6;
-        stroke-width:2px;   
+        stroke-width:2px;
       }
 
       text.mono {
@@ -92,8 +92,11 @@
 
       text.axis-worktime {
         fill: #000;
-  
+      }
+
+
 /* zoomable treemap */
+
 #chart {
   background: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -168,9 +171,9 @@ rect {
 
 </style>
 <body>
-  
+
   {% block content %}
-  
+
   {% endblock %}
 
 </body>
