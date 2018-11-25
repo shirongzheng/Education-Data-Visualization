@@ -105,9 +105,10 @@
 
 #chart2 {
 
-    overflow: scroll;
-    width: fixed;
+    overflow-y: scroll;
     height: 100%;
+    margin: auto;
+    width: 960px;
 }
 
 .title {
@@ -179,7 +180,7 @@ rect {
 }
 
 </style>
-<body>
+<body style="height:100%; width:100%; overflow:auto;">
 
   {% block content %}
 
