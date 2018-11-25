@@ -12,12 +12,12 @@
     <button type="submit">Zoomable Tree Map</button>
 </form>
 
-<div id="chart2"></div> 
+<div id="chart2" style="overflow-y: scroll;"></div>
 
 
 <script>
 // heatmap
-var margin = { top: 50, right: 0, bottom: 100, left: 30 },
+var margin = { top: 50, right: 500, bottom: 100, left: 40 },
           width = 1960 - margin.left - margin.right,
           height = 430 - margin.top - margin.bottom,
           gridSize = Math.floor(width / 24),
@@ -155,7 +155,7 @@ window.addEventListener('message', function(e) {
 });
 
 var defaults = {
-    margin: {top: 24, right: 0, bottom: 0, left: 0},
+    margin: {top: 30, right: 0, bottom: 0, left: 0},
     rootname: "TOP",
     format: ",d",
     title: "",
@@ -175,23 +175,23 @@ function main(o, data) {
   var width = opts.width - margin.left - margin.right,
       height = opts.height - margin.top - margin.bottom - theight,
       transitioning;
-  
+
   var color = d3.scale.category20c();
-  
+
   var x = d3.scale.linear()
       .domain([0, width])
       .range([0, width]);
-  
+
   var y = d3.scale.linear()
       .domain([0, height])
       .range([0, height]);
-  
+
   var treemap = d3.layout.treemap()
       .children(function(d, depth) { return depth ? null : d._children; })
       .sort(function(a, b) { return a.value - b.value; })
       .ratio(height / width * 0.5 * (1 + Math.sqrt(5)))
       .round(false);
-  
+
   var svg = d3.select("#chart2").append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.bottom + margin.top)
@@ -200,15 +200,15 @@ function main(o, data) {
     .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
       .style("shape-rendering", "crispEdges");
-  
+
   var grandparent = svg.append("g")
       .attr("class", "grandparent");
-  
+
   grandparent.append("rect")
       .attr("y", -margin.top)
       .attr("width", width)
       .attr("height", margin.top);
-  
+
   grandparent.append("text")
       .attr("x", 6)
       .attr("y", 6 - margin.top)
@@ -222,7 +222,7 @@ function main(o, data) {
   } else {
     root = data;
   }
-    
+
   initialize(root);
   accumulate(root);
   layout(root);
