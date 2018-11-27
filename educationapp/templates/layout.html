@@ -8,18 +8,23 @@
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <script src="static/js/skel.min.js"></script>
     <script src="static/js/init.js"></script>
-    
+    <script src="static/js/d3.min.js"></script>
+    <script src="static/js/jquery-1.11.1.js"></script>
+
    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet'>
-   <link href="{{ url_for('static', filename='css/skel.css') }}" rel="stylesheet" > 
-   <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" > 
-   <link href="{{ url_for('static', filename='css/style-wide.css') }}" rel="stylesheet" > 
-  <link href="{{ url_for('static', filename='css/style-noscript.css') }}" rel="stylesheet" > 
-   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" /> 
-   <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script> 
+   <link href="{{ url_for('static', filename='css/skel.css') }}" rel="stylesheet" >
+   <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" >
+   <link href="{{ url_for('static', filename='css/style-wide.css') }}" rel="stylesheet" >
+  <link href="{{ url_for('static', filename='css/style-noscript.css') }}" rel="stylesheet" >
+   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
    <script src="https://d3js.org/d3.v3.min.js"></script>
-</head> 
+   <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+</head>
 <meta charset="utf-8">
 <style>
+
+/* bar graph */
   .bar { fill: steelblue; }
   .link {
         fill: none;
@@ -69,10 +74,10 @@
     }
 
 
-
+/* gender d3 css */
     rect.bordered {
         stroke: #E6E6E6;
-        stroke-width:2px;   
+        stroke-width:2px;
       }
 
       text.mono {
@@ -87,12 +92,98 @@
 
       text.axis-worktime {
         fill: #000;
-        
+      }
+
+
+/* zoomable treemap */
+
+#chart {
+  background: #fff;
+  overflow: scroll;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#chart2 {
+
+    overflow-y: scroll;
+    height: 100%;
+    margin: auto;
+    width: 960px;
+}
+
+.title {
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+text {
+  pointer-events: none;
+}
+
+.grandparent text {
+  font-weight: bold;
+}
+
+rect {
+  fill: none;
+  stroke: #fff;
+}
+
+rect.parent,
+.grandparent rect {
+  stroke-width: 2px;
+}
+
+rect.parent {
+    pointer-events: none;
+}
+
+.grandparent rect {
+  fill: orange;
+}
+
+.grandparent:hover rect {
+  fill: #ee9700;
+}
+
+.children rect.parent,
+.grandparent rect {
+  cursor: pointer;
+}
+
+.children rect.parent {
+  fill: #bbb;
+  fill-opacity: .5;
+}
+
+.children:hover rect.child {
+  fill: #bbb;
+}
+
+/* treemap */
+
+.chart {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+text {
+  font-size: 11px;
+}
+
+rect {
+  fill: none;
+}
+
 </style>
-<body>
-  
+<body style="height:100%; width:100%; overflow:auto;">
+
   {% block content %}
-  
+
   {% endblock %}
 
 </body>

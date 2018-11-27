@@ -13,3 +13,11 @@ def bargraph():
 @app.route("/gender")
 def gender():
     return render_template("gender.html")
+
+@app.route("/zoomable")
+def zoomable():
+    return render_template("zoomable.html")
+
+@app.route("/treemap")
+def treemap():
+    return render_template("treemap.html")
