@@ -26,3 +26,6 @@ def treemap():
 def logisticregression():
     return render_template("logisticregression.html")
 
+@app.route("/dendrogram")
+def dendrogram():
+    return render_template("dendrogram.html")
