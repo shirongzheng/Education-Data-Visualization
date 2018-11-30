@@ -2,6 +2,12 @@
 
 {% block content %}
 
+
+<head>
+  <meta charset="utf-8">
+  <title>Grade Logistic Regression</title>
+</head>
+
 <body>
 <div>
     <div id="gender-controls">
@@ -91,7 +97,7 @@ body {
 
   <script>
 
-  d3.csv('.static/data/attendence_grade.csv', (error, dataValue) => {
+  d3.csv('./static/data/attendence_grade.csv', (error, dataValue) => {
       let grade_values = [];
       const intercept = -7.3381
       const gradebeta = .0953
@@ -468,5 +474,6 @@ body {
 
   </script>
 </body>
+
 
   {% endblock %}
