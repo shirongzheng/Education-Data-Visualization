@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Logistic Regression</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+body {
+  background-color: aliceblue;
+}
+#app {
+  float: left;
+}
+#app-pred {
+  float: right;
+}
+.bubble-chart-actual .bubble-circle {
+  fill: #377eb8;
+  stroke: #000;
+  cursor: pointer;
+}
+.bubble-chart-predicted .bubble-circle {
+  fill: #e41a1c;
+  stroke: #000;
+  cursor: pointer;
+}
+.line {
+  fill: none;
+  stroke: #000;
+}
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+.grid path {
+  stroke-width: 0;
+}
+#tooltip {
+  position: absolute;
+  display: none;
+  width: 200px;
+  height: 40px;
+}
+#tooltip table {
+  background-color: burlywood;
+  padding: 10px;
+}
+
+</style>
+
+<body>
+    <section class="charts">
+        <div id="app"></div>
+        <div id="app-pred"></div>
+    </section>
+
+    <div id="tooltip"></div>
+    
+<script type="text/javascript" src="./static/js/app.js"></script>
+</body>
+
+
+  {% endblock %}

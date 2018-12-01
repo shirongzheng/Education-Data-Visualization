@@ -21,3 +21,11 @@ def zoomable():
 @app.route("/treemap")
 def treemap():
     return render_template("treemap.html")
+
+@app.route("/logisticregression")
+def logisticregression():
+    return render_template("logisticregression.html")
+
+@app.route("/dendrogram")
+def dendrogram():
+    return render_template("dendrogram.html")
