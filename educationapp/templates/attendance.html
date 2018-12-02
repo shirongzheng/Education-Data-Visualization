@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Isomap Visualization</title>
+
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<label><u>Courses</u></label><br>
+		<input type="radio" name="course" value = "gem03" checked>
+			<label>Algorithms and Programming I</label><br>
+		<input type="radio" name="course" value = "facom49010">
+			<label>Algorithms and Programming II</label><br>
+		<input type="radio" name="course" value = "gfm015">
+			<label>Algorithms and Programming III</label><br>
+		<input type="radio" name="course" value = "gsi014">
+			<label>Discrete Mathematics I</label><br>
+		<input type="radio" name="course" value = "inf63">
+			<label>Discrete Mathematics II</label><br>
+		<input type="radio" name="course" value = "ggi005">
+			<label>Logic for Computer Science I</label><br>
+		<input type="radio" name="course" value = "gsi005">
+			<label>Logic for Computer Science II</label><br>
+		<input type="radio" name="course" value = "gsi015">
+			<label>Object Oriented Programming</label><br>
+		<input type="radio" name="course" value = "ggi017">
+			<label>Data Structures</label><br>
+		<input type="radio" name="course" value = "gsi037">
+			<label>Human-Computer Interaction</label><br><br>
+
+		<label><u>Models</u></label><br>
+		<input type="radio" name="ml" value = "Grade" checked><label>Actual Data</label><br>
+        <input type="radio" name="ml" value = "pred_percep"><label>No Regulation Perceptron</label><br>
+        <input type="radio" name="ml" value = "pred_LR"><label>Linear Regression</label><br>
+        <input type="radio" name="ml" value = "pred_RR"><label>Ridge Regression</label><br>
+        <input type="radio" name="ml" value = "pred_KRR"><label>Kernelridge</label><br>
+        <input type="radio" name="ml" value = "pred_elastic_net"><label>Elastic Net</label><br>
+        <input type="radio" name="ml" value = "pred_tree"><label>Decision Tree</label><br>
+        <input type="radio" name="ml" value = "pred_forest"><label>Random Forest Regressor</label><br>
+        <input type="radio" name="ml" value = "pred_mlpr"><label>MLP Regressor</label><br>
+        <input type="radio" name="ml" value = "pred_svr_lin"><label>SVR Linear</label><br>
+        <input type="radio" name="ml" value = "pred_svr_rbf"><label>SVR RBF</label><br>
+        <input type="radio" name="ml" value = "pred_svr_sig"><label>SVR SIG</label><br>				
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div id="chart-area" class="chart"></div>
+		</div>
+	</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<!-- Javascript Imports -->
+<script src="js/jquery.min.js"></script>
+<script src="js/d3.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
