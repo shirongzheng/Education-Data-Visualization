@@ -3,39 +3,57 @@ body {
 	text-align: center;
 }
 
-svg {
-	background-color: white;
-	display: block;
-	margin: auto;
-    border: 1px solid black;
-}
+/*h1, h3, p {
+	text-align: center;
+}*/
 
 h3 {
 	background: black;
 	color: white;
-	display: inline;
 }
 
-/*Tooltip*/
+/*#chart-area {
+	padding: 25px 0px;
+}
+
+#chart-area2 {
+	padding: 25px 0px;
+}*/
+
+.chart {
+	padding: 25px 0px;
+}
+
+svg {
+	display: block;
+	margin: auto;
+	/*background-color: pink;*/
+}
+
+.container {
+	margin-top: 20px;
+}
+
 .tooltip {
     position: relative;
     display: inline-block;
 }
 
-div.tooltip {   
-    position: absolute;         
-    text-align: center;         
-    width: 80px;                   
-    height: 50px;                   
-    padding: 2px;               
-    font: 12px sans-serif;      
-    background: lightsteelblue; 
-    border: 0px;        
-    border-radius: 8px;         
-    pointer-events: none;           
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 120px;					
+    height: 16px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
 }
 
-/*Sidebar*/
+/*Testing Sidebar*/
+
 body {
     font-family: "Lato", sans-serif;
 }

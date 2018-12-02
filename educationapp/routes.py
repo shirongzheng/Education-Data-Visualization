@@ -33,3 +33,7 @@ def dendrogram():
 @app.route("/isomap")
 def isomap():
     return render_template("isomap.html")
+
+@app.route("/heatmap")
+def heatmap():
+    return render_template("heatmap.html")
