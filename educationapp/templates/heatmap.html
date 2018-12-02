@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Machine Learning Heatmap</title>
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" type="text/css" href="./static/css/heatmap.css">
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <input type="radio" name="ml" value = "pred_percep" checked><label>No Regulation Perceptron</label><br>
+  <input type="radio" name="ml" value = "pred_LR"><label>Linear Regression</label><br>
+  <input type="radio" name="ml" value = "pred_RR"><label>Ridge Regression</label><br>
+  <input type="radio" name="ml" value = "pred_KRR"><label>Kernelridge</label><br>
+  <input type="radio" name="ml" value = "pred_elastic_net"><label>Elastic Net</label><br>
+  <input type="radio" name="ml" value = "pred_tree"><label>Decision Tree</label><br>
+  <input type="radio" name="ml" value = "pred_forest"><label>Random Forest Regressor</label><br>
+  <input type="radio" name="ml" value = "pred_mlpr"><label>MLP Regressor</label><br>
+  <input type="radio" name="ml" value = "pred_svr_lin"><label>SVR Linear</label><br>
+  <input type="radio" name="ml" value = "pred_svr_rbf"><label>SVR RBF</label><br>
+  <input type="radio" name="ml" value = "pred_svr_sig"><label>SVR SIG</label><br>
+</div>
+    <div class="row">
+  <div class="col-md-4">
+  <form method="get" action="/isomap1">
+    <button type="submit">isomap1</button>
+</form>
+</div>
+
+  <div class="col-md-4">
+  <form method="get" action="/isomap2">
+    <button type="submit">isomap2</button>
+</form>
+</div>
+
+<div class="col-md-4">
+<form method="get" action="/">
+    <button type="submit">return</button>
+</form>
+</div>
+<div class="container">
+  <div class="row">
+    <select id="var-select">
+      <option value = "gem03" selected>Algorithms and Programming I</option>
+      <option value = "facom49010">Algorithms and Programming II</option>
+      <option value = "gfm015">Algorithms and Programming III</option>
+      <option value = "gsi014">Discrete Mathematics I</option>
+      <option value = "inf63">Discrete Mathematics II</option>
+      <option value = "ggi005">Logic for Computer Science I</option>
+      <option value = "gsi005">Logic for Computer Science II</option>
+      <option value = "gsi015">Object Oriented Programming</option>
+      <option value = "ggi017">Data Structures</option>
+      <option value = "gsi037">Human-Computer Interaction</option>
+    </select>
+  </div>
+    <div class="row">
+      <h3>Actual Data</h3>
+        <div id="chart-area" class="chart"></div>
+    </div>
+    <div class="row">
+        <!-- <select id="ml-select">
+            <option value = "pred_percep" selected>No Regulation Perceptron</option>
+            <option value = "pred_LR">Linear Regression</option>
+            <option value = "pred_RR">Ridge Regression</option>
+            <option value = "pred_KRR">Kernelridge</option>
+            <option value = "pred_elastic_net">Elastic Net</option>
+            <option value = "pred_tree">Decision Tree</option>
+            <option value = "pred_forest">Random Forest Regressor</option>
+            <option value = "pred_mlpr">MLP Regressor</option>
+            <option value = "pred_svr_lin">SVR Linear</option>
+            <option value = "pred_svr_rbf">SVR RBF</option>
+            <option value = "pred_svr_sig">SVR SIG</option>
+        </select> -->
+    </div>
+
+    <div class="row">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; ML Menu</span>
+        <h3><span>Machine Learning Data</span></h3>
+        <div id="chart-area2" class="chart"></div>
+    </div>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+<script src="./static/js/jquery.min.js"></script>
+<script src="./static/js/d3.min.js"></script>
+<script type="text/javascript" src="./static/js/actualData.js"></script>
+<script type="text/javascript" src="./static/js/mlData.js"></script>
+</body>
+
+</html>

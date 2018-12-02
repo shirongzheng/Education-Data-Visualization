@@ -60,7 +60,7 @@
  var svg = d3.select("svg"),
             width = +svg.attr("width"),
             height = +svg.attr("height"),
-            g = svg.append("g").attr("transform", "translate(20,0)");       // move right 20px.
+            g = svg.append("g").attr("transform", "translate(40,0)");       // move right 20px.
 
     // x-scale and x-axis
     var experienceName = ["", "","","","",""];
@@ -68,8 +68,8 @@
         return experienceName[d % 6];
     }
     var xScale =  d3.scaleLinear()
-            .domain([0, 100])
-            .range([0, 280]);
+            .domain([0, 30])
+            .range([0, 300]);
 
     var xAxis = d3.axisTop()
             .scale(xScale)
@@ -138,6 +138,7 @@
                 .attr("dy", 19.5)
                 .attr("x", 8)
                 .style("text-anchor", "start")
+                .style("font-size", "10px")
                 .text(function (d) {
                     return d.data.id.substring(d.data.id.lastIndexOf(".") + 1) + " - " + d.data.value;
                 });
