@@ -19,7 +19,7 @@ $("input[type=radio][name=ml]").change(function() {
 // Argument m stands for 'model'.
 function drawIsomap(c, m)
 {
-	d3.json("data/attend_grade_all_model.json").then(function(data)
+	d3.json("./static/data/attend_grade_all_model.json").then(function(data)
 	{
 		d3.select("#chart-area svg").remove();
 
