@@ -29,3 +29,7 @@ def logisticregression():
 @app.route("/dendrogram")
 def dendrogram():
     return render_template("dendrogram.html")
+
+@app.route("/attendance")
+def attendance():
+    return render_template("attendance.html")

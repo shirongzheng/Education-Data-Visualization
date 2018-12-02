@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html>
+{% extends "layout.html" %}
+
+{% block content %}
+
 <head>
 	<title>Isomap Visualization</title>
 
 	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/attendance.css">
 </head>
 <body>
 	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
@@ -45,7 +47,7 @@
         <input type="radio" name="ml" value = "pred_mlpr"><label>MLP Regressor</label><br>
         <input type="radio" name="ml" value = "pred_svr_lin"><label>SVR Linear</label><br>
         <input type="radio" name="ml" value = "pred_svr_rbf"><label>SVR RBF</label><br>
-        <input type="radio" name="ml" value = "pred_svr_sig"><label>SVR SIG</label><br>				
+        <input type="radio" name="ml" value = "pred_svr_sig"><label>SVR SIG</label><br>
 	</div>
 
 	<div class="container">
@@ -65,8 +67,10 @@ function closeNav() {
 </script>
 
 <!-- Javascript Imports -->
-<script src="js/jquery.min.js"></script>
-<script src="js/d3.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/d3.min.js"></script>
+<script type="text/javascript" src="/static/js/attendance.js"></script>
 </body>
-</html>
+
+
+{% endblock %}
