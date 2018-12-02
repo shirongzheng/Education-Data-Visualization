@@ -30,9 +30,13 @@ def logisticregression():
 def dendrogram():
     return render_template("dendrogram.html")
 
-@app.route("/isomap")
-def isomap():
-    return render_template("isomap.html")
+@app.route("/isomap1")
+def isomap1():
+    return render_template("isomap1.html")
+
+@app.route("/isomap2")
+def isomap2():
+    return render_template("isomap2.html")
 
 @app.route("/heatmap")
 def heatmap():

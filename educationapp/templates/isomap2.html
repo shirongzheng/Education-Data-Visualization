@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Isomap Visualization</title>
+
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+	<link rel="stylesheet" type="text/css" href="./static/css/isomap2.css">
+</head>
+<body>
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<label><u>Subject:</u></label><br>
+		<input type="radio" name="subject" value = "mat" checked> <label>Math</label><br>
+		<input type="radio" name="subject" value = "por"> <label>Portuguese</label><br>
+		<label><u>Grade Period:</u></label><br>
+		<input type="radio" name="isomap" value = "G1" checked>
+			<label>Period 1 Grade</label><br>
+		<input type="radio" name="isomap" value = "G2">
+			<label>Period 2 Grade</label><br>
+		<input type="radio" name="isomap" value = "G3">
+			<label>Period 3 Grade</label><br>
+		<input type="radio" name="isomap" value = "G123">
+			<label>Period 1, 2, 3 Grade</label><br>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div id="chart-area" class="chart"></div>
+		</div>
+	</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<!-- Javascript Imports -->
+<script src="./static/js/jquery.min.js"></script>
+<script src="./static/js/d3.min.js"></script>
+<script type="text/javascript" src="./static/js/isomap2.js"></script>
+</body>
+</html>

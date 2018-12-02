@@ -3,57 +3,49 @@ body {
 	text-align: center;
 }
 
-/*h1, h3, p {
-	text-align: center;
-}*/
+svg {
+	background-color: white;
+	/*display: block;
+	margin: auto;*/
+    border: 1px solid black;
+}
 
 h3 {
 	background: black;
 	color: white;
+	display: inline;
 }
 
-/*#chart-area {
-	padding: 25px 0px;
+/*Legend*/
+.legend {
+    font-size: 12px;
 }
 
-#chart-area2 {
-	padding: 25px 0px;
-}*/
-
-.chart {
-	padding: 25px 0px;
+rect {
+    stroke-width: 2;
 }
 
-svg {
-	display: block;
-	margin: auto;
-	/*background-color: pink;*/
-}
 
-.container {
-	margin-top: 20px;
-}
-
+/*Tooltip*/
 .tooltip {
     position: relative;
     display: inline-block;
 }
 
-div.tooltip {	
-    position: absolute;			
-    text-align: center;			
-    width: 120px;					
-    height: 16px;					
-    padding: 2px;				
-    font: 12px sans-serif;		
-    background: lightsteelblue;	
-    border: 0px;		
-    border-radius: 8px;			
-    pointer-events: none;			
+div.tooltip {   
+    position: absolute;         
+    text-align: center;         
+    width: 100px;                   
+    height: 75px;                   
+    padding: 2px;               
+    font: 12px sans-serif;      
+    background: lightsteelblue; 
+    border: 0px;        
+    border-radius: 8px;         
+    pointer-events: none;           
 }
 
-/*Testing Sidebar*/
-
+/*Sidebar*/
 body {
     font-family: "Lato", sans-serif;
 }
