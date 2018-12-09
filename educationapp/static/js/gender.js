@@ -30,7 +30,7 @@
     var stratify = d3.stratify()            // This D3 API method gives cvs file flat data array dimensions.
             .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
-    d3.csv("./static/data/gender.csv", row, function(error, data) {
+    d3.csv("./static/data/average_course_grade.csv", row, function(error, data) {
         if (error) throw error;
 
         var root = stratify(data);

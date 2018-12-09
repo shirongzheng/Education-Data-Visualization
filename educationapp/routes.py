@@ -13,3 +13,31 @@ def bargraph():
 @app.route("/gender")
 def gender():
     return render_template("gender.html")
+
+@app.route("/zoomable")
+def zoomable():
+    return render_template("zoomable.html")
+
+@app.route("/treemap")
+def treemap():
+    return render_template("treemap.html")
+
+@app.route("/logisticregression")
+def logisticregression():
+    return render_template("logisticregression.html")
+
+@app.route("/dendrogram")
+def dendrogram():
+    return render_template("dendrogram.html")
+
+@app.route("/isomap1")
+def isomap1():
+    return render_template("isomap1.html")
+
+@app.route("/isomap2")
+def isomap2():
+    return render_template("isomap2.html")
+
+@app.route("/heatmap")
+def heatmap():
+    return render_template("heatmap.html")
