@@ -41,3 +41,7 @@ def isomap2():
 @app.route("/heatmap")
 def heatmap():
     return render_template("heatmap.html")
+
+@app.route("/heatmap2")
+def heatmap2():
+    return render_template("heatmap2.html")
