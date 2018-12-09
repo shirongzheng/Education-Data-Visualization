@@ -1,25 +1,33 @@
 var period = $("input[name=isomap]:checked").val();
 var subject = $("input[name=subject]:checked").val();
+var gender = $("input[name=gender]:checked").val();
 
 var filename = "./static/data/iso_" + subject + "AgeFailuresAbsences" + period +".json";
 
-drawIsomap2(period, filename);
+drawIsomap2(period, filename, gender);
 
 $("input[type=radio][name=subject]").change(function() {
 	subject = $(this).val();
 	filename = "./static/data/iso_" + subject + "AgeFailuresAbsences" + period +".json";
 
-	drawIsomap2(period, filename);
+	drawIsomap2(period, filename, gender);
 });
 
 $("input[type=radio][name=isomap]").change(function() {
 	period = $(this).val();
 	filename = "./static/data/iso_" + subject + "AgeFailuresAbsences" + period +".json";
 
-	drawIsomap2(period, filename);
+	drawIsomap2(period, filename, gender);
 });
 
-function drawIsomap2(p, f)
+$("input[type=radio][name=gender]").change(function() {
+	gender = $(this).val();
+	filename = "./static/data/iso_" + subject + "AgeFailuresAbsences" + period +".json";
+
+	drawIsomap2(period, filename, gender);
+});
+
+function drawIsomap2(p, f, g)
 {
 	d3.json(/*"data/iso_matAgeFailuresAbsencesG1.json"*/f).then(function(data)
 	{
@@ -84,47 +92,185 @@ function drawIsomap2(p, f)
 			    .attr("class", "tooltip")				
 			    .style("opacity", 0);
 
-		var circles = svg.selectAll("circle")
-			.data(data)
-			.enter()
-				.append("circle")
-				.attr("cx", function(d) { return (d.X + minX) * 20 + 10; })
-				.attr("cy", function(d) { return (d.Y + minY) * 20 + 10; })
-				.attr("r", 5)
-				.attr("fill", function(d) {
-					if (d.Medu == 0) return "black";
-					else if (d.Medu == 1) return "red";
-					else if (d.Medu == 2) return "orange";
-					else if (d.Medu == 3) return "green";
-					else return "blue";
-				})
-				.attr("stroke", function(d) {
-					if (d.Fedu == 0) return "black";
-					else if (d.Fedu == 1) return "red";
-					else if (d.Fedu == 2) return "orange";
-					else if (d.Fedu == 3) return "green";
-					else return "blue";
-				})
-				.attr("stroke-width", 2)
-				.on("mouseover", function(d) {
-						var display = "Grade: " + d[p]
-							+ "</br>Fails: " + d["failures"]
-							+ "</br>Absences: " + d["absences"]
-							+ "</br>Mjob: " + d["Mjob"]
-							+ "</br>Fjob: " + d["Fjob"];
-
-						div.transition()		
-			                .duration(200)		
-			                .style("opacity", .9);
-
-			            div.html(display)
-			            	.style("left", (d3.event.pageX) + "px")		
-	                		.style("top", (d3.event.pageY - 28) + "px");
+		if (g == "M")
+		{
+			var circles = svg.selectAll("circle")
+				.data(data.filter(function(d) { return d.sex == "M"; }))
+				.enter()
+					.append("circle")
+					.attr("cx", function(d) { return (d.X + minX) * 20 + 10; })
+					.attr("cy", function(d) { return (d.Y + minY) * 20 + 10; })
+					.attr("r", 5)
+					.attr("fill", function(d) {
+						if (d.Medu == 0) return "black";
+						else if (d.Medu == 1) return "red";
+						else if (d.Medu == 2) return "orange";
+						else if (d.Medu == 3) return "green";
+						else return "blue";
 					})
-					.on("mouseout", function(d) {
-						div.transition()		
-			                .duration(500)		
-			                .style("opacity", 0);
-					});
+					.attr("stroke", function(d) {
+						if (d.Fedu == 0) return "black";
+						else if (d.Fedu == 1) return "red";
+						else if (d.Fedu == 2) return "orange";
+						else if (d.Fedu == 3) return "green";
+						else return "blue";
+					})
+					.attr("stroke-width", 2)
+					.on("mouseover", function(d) {
+							var display = "Grade: " + d[p]
+								+ "</br>Fails: " + d["failures"]
+								+ "</br>Absences: " + d["absences"]
+								+ "</br>Mjob: " + d["Mjob"]
+								+ "</br>Fjob: " + d["Fjob"];
+
+							div.transition()		
+				                .duration(200)		
+				                .style("opacity", .9);
+
+				            div.html(display)
+				            	.style("left", (d3.event.pageX) + "px")		
+		                		.style("top", (d3.event.pageY - 28) + "px");
+						})
+						.on("mouseout", function(d) {
+							div.transition()		
+				                .duration(500)		
+				                .style("opacity", 0);
+						});
+			}
+		if (g == "F")
+		{
+			var rectangles = svg.selectAll("rect")
+				.data(data.filter(function(d) { return d.sex == "F"; }))
+				.enter()
+					.append("rect")
+					.attr("x", function(d) { return (d.X + minX) * 20 + 10 - 5; })
+					.attr("y", function(d) { return (d.Y + minY) * 20 + 10 - 5; })
+					.attr("width", 10)
+					.attr("height", 10)
+					.attr("fill", function(d) {
+						if (d.Medu == 0) return "black";
+						else if (d.Medu == 1) return "red";
+						else if (d.Medu == 2) return "orange";
+						else if (d.Medu == 3) return "green";
+						else return "blue";
+					})
+					.attr("stroke", function(d) {
+						if (d.Fedu == 0) return "black";
+						else if (d.Fedu == 1) return "red";
+						else if (d.Fedu == 2) return "orange";
+						else if (d.Fedu == 3) return "green";
+						else return "blue";
+					})
+					.attr("stroke-width", 2)
+					.on("mouseover", function(d) {
+							var display = "Grade: " + d[p]
+								+ "</br>Fails: " + d["failures"]
+								+ "</br>Absences: " + d["absences"]
+								+ "</br>Mjob: " + d["Mjob"]
+								+ "</br>Fjob: " + d["Fjob"];
+
+							div.transition()		
+				                .duration(200)		
+				                .style("opacity", .9);
+
+				            div.html(display)
+				            	.style("left", (d3.event.pageX) + "px")		
+		                		.style("top", (d3.event.pageY - 28) + "px");
+						})
+						.on("mouseout", function(d) {
+							div.transition()		
+				                .duration(500)		
+				                .style("opacity", 0);
+						});
+		}
+		if (g == "both")
+		{
+			var circles = svg.selectAll("circle")
+				.data(data.filter(function(d) { return d.sex == "M"; }))
+				.enter()
+					.append("circle")
+					.attr("cx", function(d) { return (d.X + minX) * 20 + 10; })
+					.attr("cy", function(d) { return (d.Y + minY) * 20 + 10; })
+					.attr("r", 5)
+					.attr("fill", function(d) {
+						if (d.Medu == 0) return "black";
+						else if (d.Medu == 1) return "red";
+						else if (d.Medu == 2) return "orange";
+						else if (d.Medu == 3) return "green";
+						else return "blue";
+					})
+					.attr("stroke", function(d) {
+						if (d.Fedu == 0) return "black";
+						else if (d.Fedu == 1) return "red";
+						else if (d.Fedu == 2) return "orange";
+						else if (d.Fedu == 3) return "green";
+						else return "blue";
+					})
+					.attr("stroke-width", 2)
+					.on("mouseover", function(d) {
+							var display = "Grade: " + d[p]
+								+ "</br>Fails: " + d["failures"]
+								+ "</br>Absences: " + d["absences"]
+								+ "</br>Mjob: " + d["Mjob"]
+								+ "</br>Fjob: " + d["Fjob"];
+
+							div.transition()		
+				                .duration(200)		
+				                .style("opacity", .9);
+
+				            div.html(display)
+				            	.style("left", (d3.event.pageX) + "px")		
+		                		.style("top", (d3.event.pageY - 28) + "px");
+						})
+						.on("mouseout", function(d) {
+							div.transition()		
+				                .duration(500)		
+				                .style("opacity", 0);
+						});
+
+			var rectangles = svg.selectAll("rect")
+				.data(data.filter(function(d) { return d.sex == "F"; }))
+				.enter()
+					.append("rect")
+					.attr("x", function(d) { return (d.X + minX) * 20 + 10 - 5; })
+					.attr("y", function(d) { return (d.Y + minY) * 20 + 10 - 5; })
+					.attr("width", 10)
+					.attr("height", 10)
+					.attr("fill", function(d) {
+						if (d.Medu == 0) return "black";
+						else if (d.Medu == 1) return "red";
+						else if (d.Medu == 2) return "orange";
+						else if (d.Medu == 3) return "green";
+						else return "blue";
+					})
+					.attr("stroke", function(d) {
+						if (d.Fedu == 0) return "black";
+						else if (d.Fedu == 1) return "red";
+						else if (d.Fedu == 2) return "orange";
+						else if (d.Fedu == 3) return "green";
+						else return "blue";
+					})
+					.attr("stroke-width", 2)
+					.on("mouseover", function(d) {
+							var display = "Grade: " + d[p]
+								+ "</br>Fails: " + d["failures"]
+								+ "</br>Absences: " + d["absences"]
+								+ "</br>Mjob: " + d["Mjob"]
+								+ "</br>Fjob: " + d["Fjob"];
+
+							div.transition()		
+				                .duration(200)		
+				                .style("opacity", .9);
+
+				            div.html(display)
+				            	.style("left", (d3.event.pageX) + "px")		
+		                		.style("top", (d3.event.pageY - 28) + "px");
+						})
+						.on("mouseout", function(d) {
+							div.transition()		
+				                .duration(500)		
+				                .style("opacity", 0);
+						});
+		}
 	});
 }
