@@ -8,9 +8,20 @@
 <div id="chart"></div>
 <div id="dataset-picker"></div>
 
+<div class="row">
+  <div class="col-md-6">
+<form method="get" action="/heatmap2">
+    <button type="submit">Second Heatmap</button>
+</form>
+</div>
+
+<div class="col-md-6">
 <form method="get" action="/dendrogram">
     <button type="submit">Average Course Grade</button>
 </form>
+</div>
+</div>
+
 
 <div id="chart2" style="overflow: scroll;"></div>
 
@@ -138,7 +149,7 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
           heatmapChart(d);
         });
 function zoom() {
-  window.open ("https://education-data-visualization.herokuapp.com/zoomable?",
+  window.open ("https://education-data-visualization.herokuapp.com/heatmap2",
 "mywindow","menubar=1,resizable=1,width=350,height=250");
   //alert("clicked test");
 } 

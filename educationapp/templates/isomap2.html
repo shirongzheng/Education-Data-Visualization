@@ -28,13 +28,13 @@
 
 </div>
 
-	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
 
 	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<label><u>Subject:</u></label><br>
 		<input type="radio" name="subject" value = "mat" checked> <label>Math</label><br>
-		<input type="radio" name="subject" value = "por"> <label>Portuguese</label><br>
+		<input type="radio" name="subject" value = "por"> <label>Portuguese</label><br><br>
 		<label><u>Grade Period:</u></label><br>
 		<input type="radio" name="isomap" value = "G1" checked>
 			<label>Period 1 Grade</label><br>
@@ -43,7 +43,11 @@
 		<input type="radio" name="isomap" value = "G3">
 			<label>Period 3 Grade</label><br>
 		<input type="radio" name="isomap" value = "G123">
-			<label>Period 1, 2, 3 Grade</label><br>
+			<label>Period 1, 2, 3 Grade</label><br><br>
+		<label><u>Show Gender:</u></label><br>
+		<input type="radio" name="gender" value = "M" checked><label>Males Only</label><br>
+		<input type="radio" name="gender" value = "F"><label>Females Only</label><br>
+		<input type="radio" name="gender" value = "both"><label>Both Genders</label><br>
 	</div>
 
 	<div class="container">
@@ -61,6 +65,7 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+
 
 <!-- Javascript Imports -->
 <script src="./static/js/jquery.min.js"></script>
