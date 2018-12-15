@@ -1,0 +1,594 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<!-- svg of gender.js -->
+<!-- <svg width="960" height="1100"></svg> -->
+
+
+<div id="chart"></div>
+<div id="dataset-picker"></div>
+
+<div class="row">
+  <div class="col-md-6">
+<form method="get" action="/heatmap2">
+    <button type="submit">Second Heatmap</button>
+</form>
+</div>
+
+<div class="col-md-6">
+<form method="get" action="/dendrogram">
+    <button type="submit">Average Course Grade</button>
+</form>
+</div>
+</div>
+
+
+<div id="chart2" style="overflow: scroll;"></div>
+
+
+<script>
+// heatmap
+var margin = { top: 50, right: 800, bottom: 100, left: 40 },
+          width = 1960 - margin.left - margin.right,
+          height = 280 - margin.top - margin.bottom,
+          gridSize = Math.floor(width / 24),
+          legendElementWidth = gridSize*2,
+          buckets = 9,
+          colors = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"], // alternatively colorbrewer.YlGnBu[9]
+          days = ["Sem1", "Sem2"],
+          times = ["gem03/2009", "gsi014/2010","gsi014/2011", "gsi015/2012", "gsi015/2013","gsi015/2014","gsi015/2015","gsi015/2016","inf63/2009", "inf63/2010",
+      "facom49010/2011", "facom49010/2014", "ggi017/2016", "ggi017/2017", "ggi005/2017", "gsi037/2015", "gfm015/2015", "gsi005/2011", "gsi005/2012","gsi005/2013","gsi005/2014"];
+          datasets = ["./static/data/Male.tsv", "./static/data/Female.tsv", "./static/data/P-value.tsv"];
+
+      var svg = d3.select("#chart").append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      var dayLabels = svg.selectAll(".dayLabel")
+          .data(days)
+          .enter().append("text")
+            .text(function (d) { return d; })
+            .attr("y", function (d, i) { return i * gridSize; })
+            .style("text-anchor", "end")
+            .attr("transform", "translate(-6," + gridSize / 2 + ")" )
+            .attr("class", function (d, i) { return ((i >= 0 && i <= 4) ? "dayLabel mono axis axis-workweek" : "dayLabel mono axis"); });
+
+      var timeLabels = svg.selectAll(".timeLabel")
+          .data(times)
+          .enter().append("text")
+            .text(function(d) { return d; })
+            .style("font-size", "7px")
+            //.attr("x", "transform", "rotate(-90)")
+            .attr("x", function(d, i) { return i * gridSize })
+            //.attr("transform", function(d, i) { return  "rotate(-60)" })
+            .style("text-anchor", "middle")
+            .attr("transform", "translate(" + gridSize / 2 + ", -6)")
+            //.attr("transform", function(d) { return "translate", "rotate(-60)" })
+            .attr("class", function(d, i) { return ((i >= 7 && i <= 16) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"); })
+            ;
+
+      var heatmapChart = function(tsvFile) {
+        d3.tsv(tsvFile,
+        function(d) {
+          return {
+            day: +d.day,
+            hour: +d.hour,
+            value: +d.value
+          };
+        },
+        function(error, data) {
+          var colorScale = d3.scale.quantile()
+              .domain([0, buckets - 1, d3.max(data, function (d) { return d.value; })])
+              .range(colors);
+
+          var cards = svg.selectAll(".hour")
+              .data(data, function(d) {return d.day+':'+d.hour;});
+
+          cards.append("title");
+
+          cards.enter().append("rect")
+              .attr("x", function(d) { return (d.hour - 1) * gridSize; })
+              .attr("y", function(d) { return (d.day - 1) * gridSize; })
+              .attr("rx", 4)
+              .attr("ry", 4)
+              .attr("class", "hour bordered")
+              .attr("width", gridSize)
+              .attr("height", gridSize)
+              .style("fill", colors[0])
+              //.attr('onclick', "zoom()");
+              .on('click', function (d, i){
+                if (d.day == 1 && d.hour == 1){
+                  window.open ("/static/data/window/DiscreteMathematics12009-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 2 && d.hour == 1){
+                  window.open ("/static/data/window/DiscreteMathematics12009-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 1 && d.hour == 2){
+                  window.open ("/static/data/window/DiscreteMathematics12010-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 2 && d.hour == 2){
+                  window.open ("/static/data/window/DiscreteMathematics12010-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 1 && d.hour == 3){
+                  window.open ("/static/data/window/DiscreteMathematics2011-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 2 && d.hour == 3){
+                  window.open ("/static/data/window/DiscreteMathematics2011-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                /* else if (d.day == 1 && d.hour == 4){
+                  window.open ("/static/data/window/ObjectOrientedProgramming2012-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                } */
+                else if (d.day == 2 && d.hour == 4){
+                  window.open ("/static/data/window/ObjectOrientedProgramming2012-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 1 && d.hour == 5) {
+                  window.open ("/static/data/window/ObjectOrientedProgramming2013-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 2 && d.hour == 5){
+                  window.open ("/static/data/window/ObjectOrientedProgramming2013-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 1 && d.hour == 6){
+                  window.open ("/static/data/window/ObjectOrientedProgramming2014-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 2 && d.hour == 6) {
+                  window.open ("/static/data/window/ObjectOrientedProgramming2014-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 1 && d.hour == 7){
+                  window.open ("/static/data/window/ObjectOrientedProgramming2015-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 2 && d.hour == 7) {
+                  window.open ("/static/data/window/ObjectOrientedProgramming2015-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                /* else if (d.day == 1 && d.hour == 8){
+                  window.open ("/static/data/window/ObjectOrientedProgramming2016-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                } */
+                else if (d.day == 2 && d.hour == 8){
+                  window.open ("/static/data/window/ObjectOrientedProgramming2016-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 1 && d.hour == 9){
+                  window.open ("/static/data/window/DiscreteMathematics12009-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 2 && d.hour == 9){
+                  window.open ("/static/data/window/DiscreteMathematics12009-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 1 && d.hour == 10){
+                  window.open ("/static/data/window/DiscreteMathematics2010-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 2 && d.hour == 10) {
+                  window.open ("/static/data/window/DiscreteMathematics2010-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 1 && d.hour == 11){
+                  window.open ("/static/data/window/AlgorithmsandProgramming12011-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 2 && d.hour == 11){
+                  window.open ("/static/data/window/AlgorithmsandProgramming12011-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 1 && d.hour == 12){
+                  window.open ("/static/data/window/AlgorithmsandProgramming120014-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 2 && d.hour == 12) {
+                  window.open ("/static/data/window/AlgorithmsandProgramming12014-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 1 && d.hour == 13) {
+                  window.open ("/static/data/window/DataSctructures2016-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 2 && d.hour == 13){
+                  window.open ("/static/data/window/DataSctructures2016-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 1 && d.hour == 14) {
+                  window.open ("/static/data/window/DataSctructures2017-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 2 && d.hour == 14){
+                  window.open ("/static/data/window/DataSctructures2017-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 1 && d.hour == 15){
+                  window.open ("/static/data/window/DataSctructures2017-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 2 && d.hour == 15){
+                  window.open ("/static/data/window/AlgorithmsandProgramming2009-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 1 && d.hour == 16){
+                  window.open ("/static/data/window/Human-computerInteraction2015-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 2 && d.hour == 16){
+                  window.open ("/static/data/window/Human-computerInteraction2015-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 1 && d.hour == 17) {
+                  window.open ("/static/data/window/Human-computerInteraction2015-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 2 && d.hour == 17){
+                  window.open ("/static/data/window/Human-computerInteraction2015-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 1 && d.hour == 18){
+                  window.open ("/static/data/window/LogicforComputerScience2011-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 2 && d.hour == 18){
+                  window.open ("/static/data/window/LogicforComputerScience2011-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 1 && d.hour == 19){
+                  window.open ("/static/data/window/AlgorithmsandProgramming12017-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 2 && d.hour == 19) {
+                  window.open ("/static/data/window/LogicforComputerScience2017-02/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 1 && d.hour == 20){
+                  window.open ("/static/data/window/LogicforComputerScience2013-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 2 && d.hour == 20){
+                  window.open ("/static/data/window/LogicforComputerScience2013-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                 else if (d.day == 1 && d.hour == 21){
+                  window.open ("/static/data/window/LogicforComputerScience2014-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else if (d.day == 2 && d.hour == 21){
+                  window.open ("/static/data/window/LogicforComputerScience2014-01/zoomable.html",
+                "mywindow","menubar=1,resizable=1,width=350,height=250");
+                }
+                else {
+                  alert("No Specific Data Exist");
+                }
+              })
+              ;
+
+          cards.transition().duration(1000)
+              .style("fill", function(d) { return colorScale(d.value); });
+
+          cards.select("title").text(function(d) { return d.value; });
+
+          //$("cards").on("click", function());
+
+          cards.exit().remove();
+
+          var legend = svg.selectAll(".legend")
+              .data([0].concat(colorScale.quantiles()), function(d) { return d; });
+
+          legend.enter().append("g")
+              .attr("class", "legend");
+              //.attr("transform", function(d, i) { return "translate(0," + i * 5 + ")"; });
+
+
+          legend.append("rect")
+            .attr("x", function(d, i) { return legendElementWidth * i; })
+            .attr("y", 130)
+            .attr("width", legendElementWidth)
+            .attr("height", gridSize / 2)
+            .style("fill", function(d, i) { return colors[i]; });
+
+          legend.append("text")
+            .attr("class", "mono")
+            .text(function(d) { return "≥ " + Math.round(d); })
+            .attr("x", function(d, i) { return legendElementWidth * i; })
+            .attr("y", 170);
+
+          legend.exit().remove();
+
+        });
+      };
+
+      heatmapChart(datasets[0]);
+
+      var datasetpicker = d3.select("#dataset-picker").selectAll(".dataset-button")
+        .data(datasets);
+
+      datasetpicker.enter()
+        .append("input")
+        .attr("value", function(d){ return "Dataset " + d })
+        .attr("type", "button")
+        .attr("class", "dataset-button")
+        .style("background", "blue")
+        .on("click", function(d) {
+          heatmapChart(d);
+        });
+//function zoom() {
+//  window.open ("https://education-data-visualization.herokuapp.com/heatmap2",
+//"mywindow","menubar=1,resizable=1,width=350,height=250");
+  //alert("clicked test");
+//}
+
+//onclick="alert('You are clicking on me')"
+
+//$("Legend").on("click", function() {
+//  alert("click test");
+//});
+
+
+// zoomable tree map
+
+window.addEventListener('message', function(e) {
+    var opts = e.data.opts,
+        data = e.data.data;
+
+    return main(opts, data);
+});
+
+var defaults = {
+    margin: {top: 30, right: 0, bottom: 0, left: 0},
+    rootname: "TOP",
+    format: ",d",
+    title: "",
+    width: 960,
+    height: 500
+};
+
+function main(o, data) {
+  var root,
+      opts = $.extend(true, {}, defaults, o),
+      formatNumber = d3.format(opts.format),
+      rname = opts.rootname,
+      margin = opts.margin,
+      theight = 36 + 16;
+
+  $('#chart2').width(opts.width).height(opts.height);
+  var width = opts.width - margin.left - margin.right,
+      height = opts.height - margin.top - margin.bottom - theight,
+      transitioning;
+
+  var color = d3.scale.category20c();
+
+  var x = d3.scale.linear()
+      .domain([0, width])
+      .range([0, width]);
+
+  var y = d3.scale.linear()
+      .domain([0, height])
+      .range([0, height]);
+
+  var treemap = d3.layout.treemap()
+      .children(function(d, depth) { return depth ? null : d._children; })
+      .sort(function(a, b) { return a.value - b.value; })
+      .ratio(height / width * 0.5 * (1 + Math.sqrt(5)))
+      .round(false);
+
+  var svg = d3.select("#chart2").append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.bottom + margin.top)
+      .style("margin-left", -margin.left + "px")
+      .style("margin.right", -margin.right + "px")
+    .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+      .style("shape-rendering", "crispEdges");
+
+  var grandparent = svg.append("g")
+      .attr("class", "grandparent");
+
+  grandparent.append("rect")
+      .attr("y", -margin.top)
+      .attr("width", width)
+      .attr("height", margin.top);
+
+  grandparent.append("text")
+      .attr("x", 6)
+      .attr("y", 6 - margin.top)
+      .attr("dy", ".75em");
+
+  if (opts.title) {
+    $("#chart2").prepend("<p class='title'>" + opts.title + "</p>");
+  }
+  if (data instanceof Array) {
+    root = { key: rname, values: data };
+  } else {
+    root = data;
+  }
+
+  initialize(root);
+  accumulate(root);
+  layout(root);
+  console.log(root);
+  display(root);
+
+  if (window.parent !== window) {
+    var myheight = document.documentElement.scrollHeight || document.body.scrollHeight;
+    window.parent.postMessage({height: myheight}, '*');
+  }
+
+  function initialize(root) {
+    root.x = root.y = 0;
+    root.dx = width;
+    root.dy = height;
+    root.depth = 0;
+  }
+
+  // Aggregate the values for internal nodes. This is normally done by the
+  // treemap layout, but not here because of our custom implementation.
+  // We also take a snapshot of the original children (_children) to avoid
+  // the children being overwritten when when layout is computed.
+  function accumulate(d) {
+    return (d._children = d.values)
+        ? d.value = d.values.reduce(function(p, v) { return p + accumulate(v); }, 0)
+        : d.value;
+  }
+
+  // Compute the treemap layout recursively such that each group of siblings
+  // uses the same size (1×1) rather than the dimensions of the parent cell.
+  // This optimizes the layout for the current zoom state. Note that a wrapper
+  // object is created for the parent node for each group of siblings so that
+  // the parent’s dimensions are not discarded as we recurse. Since each group
+  // of sibling was laid out in 1×1, we must rescale to fit using absolute
+  // coordinates. This lets us use a viewport to zoom.
+  function layout(d) {
+    if (d._children) {
+      treemap.nodes({_children: d._children});
+      d._children.forEach(function(c) {
+        c.x = d.x + c.x * d.dx;
+        c.y = d.y + c.y * d.dy;
+        c.dx *= d.dx;
+        c.dy *= d.dy;
+        c.parent = d;
+        layout(c);
+      });
+    }
+  }
+
+  function display(d) {
+    grandparent
+        .datum(d.parent)
+        .on("click", transition)
+      .select("text")
+        .text(name(d));
+
+    var g1 = svg.insert("g", ".grandparent")
+        .datum(d)
+        .attr("class", "depth");
+
+    var g = g1.selectAll("g")
+        .data(d._children)
+      .enter().append("g");
+
+    g.filter(function(d) { return d._children; })
+        .classed("children", true)
+        .on("click", transition);
+
+    var children = g.selectAll(".child")
+        .data(function(d) { return d._children || [d]; })
+      .enter().append("g");
+
+    children.append("rect")
+        .attr("class", "child")
+        .call(rect)
+      .append("title")
+        .text(function(d) { return d.key + " (" + formatNumber(d.value) + ")"; });
+    children.append("text")
+        .attr("class", "ctext")
+        .text(function(d) { return d.key; })
+        .call(text2);
+
+    g.append("rect")
+        .attr("class", "parent")
+        .call(rect);
+
+    var t = g.append("text")
+        .attr("class", "ptext")
+        .attr("dy", ".75em")
+
+    t.append("tspan")
+        .text(function(d) { return d.key; });
+    t.append("tspan")
+        .attr("dy", "1.0em")
+        .text(function(d) { return formatNumber(d.value); });
+    t.call(text);
+
+    g.selectAll("rect")
+        .style("fill", function(d) { return color(d.key); });
+
+    function transition(d) {
+      if (transitioning || !d) return;
+      transitioning = true;
+
+      var g2 = display(d),
+          t1 = g1.transition().duration(750),
+          t2 = g2.transition().duration(750);
+
+      // Update the domain only after entering new elements.
+      x.domain([d.x, d.x + d.dx]);
+      y.domain([d.y, d.y + d.dy]);
+
+      // Enable anti-aliasing during the transition.
+      svg.style("shape-rendering", null);
+
+      // Draw child nodes on top of parent nodes.
+      svg.selectAll(".depth").sort(function(a, b) { return a.depth - b.depth; });
+
+      // Fade-in entering text.
+      g2.selectAll("text").style("fill-opacity", 0);
+
+      // Transition to the new view.
+      t1.selectAll(".ptext").call(text).style("fill-opacity", 0);
+      t1.selectAll(".ctext").call(text2).style("fill-opacity", 0);
+      t2.selectAll(".ptext").call(text).style("fill-opacity", 1);
+      t2.selectAll(".ctext").call(text2).style("fill-opacity", 1);
+      t1.selectAll("rect").call(rect);
+      t2.selectAll("rect").call(rect);
+
+      // Remove the old node when the transition is finished.
+      t1.remove().each("end", function() {
+        svg.style("shape-rendering", "crispEdges");
+        transitioning = false;
+      });
+    }
+
+    return g;
+  }
+
+  function text(text) {
+    text.selectAll("tspan")
+        .attr("x", function(d) { return x(d.x) + 6; })
+    text.attr("x", function(d) { return x(d.x) + 6; })
+        .attr("y", function(d) { return y(d.y) + 6; })
+        .style("opacity", function(d) { return this.getComputedTextLength() < x(d.x + d.dx) - x(d.x) ? 1 : 0; });
+  }
+
+  function text2(text) {
+    text.attr("x", function(d) { return x(d.x + d.dx) - this.getComputedTextLength() - 6; })
+        .attr("y", function(d) { return y(d.y + d.dy) - 6; })
+        .style("opacity", function(d) { return this.getComputedTextLength() < x(d.x + d.dx) - x(d.x) ? 1 : 0; });
+  }
+
+  function rect(rect) {
+    rect.attr("x", function(d) { return x(d.x); })
+        .attr("y", function(d) { return y(d.y); })
+        .attr("width", function(d) { return x(d.x + d.dx) - x(d.x); })
+        .attr("height", function(d) { return y(d.y + d.dy) - y(d.y); });
+  }
+
+  function name(d) {
+    return d.parent
+        ? name(d.parent) + " / " + d.key + " (" + formatNumber(d.value) + ")"
+        : d.key + " (" + formatNumber(d.value) + ")";
+  }
+}
+
+if (window.location.hash === "") {
+    d3.json("./static/data/course.json", function(err, res) {
+        if (!err) {
+            console.log(res);
+            var data = d3.nest().key(function(d) { return d.class_name; }).key(function(d) { return d.date; }).entries(res);
+            main({title: "Student Grade Compare By Gender"}, {key: "Course", values: data});
+        }
+    });
+}
+</script>
+
+{% endblock %}

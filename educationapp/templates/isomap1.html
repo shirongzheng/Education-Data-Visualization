@@ -1,0 +1,176 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<head>
+	<title>Isomap Visualization</title>
+
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+	<link rel="stylesheet" type="text/css" href="./static/css/isomap.css">
+</head>
+<body>
+
+<div class="row">
+	<div class="col-md-4">
+	<form method="get" action="/isomap2">
+    <button type="submit" style="height:70px;width:100px">isomap</button>
+</form>
+</div>
+
+	<div class="col-md-4">
+	<form method="get" action="/heatmap">
+    <button type="submit" style="height:70px;width:100px">heatmap</button>
+</form>
+</div>
+
+<div class="col-md-4">
+<form method="get" action="/">
+    <button type="submit" style="height:70px;width:100px">return</button>
+</form>
+</div>
+
+</div>
+
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<label><u>Courses</u></label><br>
+		<input type="radio" name="course" value = "gem03" checked>
+			<label>Algorithms and Programming I</label><br>
+		<input type="radio" name="course" value = "facom49010">
+			<label>Algorithms and Programming II</label><br>
+		<input type="radio" name="course" value = "gfm015">
+			<label>Algorithms and Programming III</label><br>
+		<input type="radio" name="course" value = "gsi014">
+			<label>Discrete Mathematics I</label><br>
+		<input type="radio" name="course" value = "inf63">
+			<label>Discrete Mathematics II</label><br>
+		<input type="radio" name="course" value = "ggi005">
+			<label>Logic for Computer Science I</label><br>
+		<input type="radio" name="course" value = "gsi005">
+			<label>Logic for Computer Science II</label><br>
+		<input type="radio" name="course" value = "gsi015">
+			<label>Object Oriented Programming</label><br>
+		<input type="radio" name="course" value = "ggi017">
+			<label>Data Structures</label><br>
+		<input type="radio" name="course" value = "gsi037">
+			<label>Human-Computer Interaction</label><br><br>
+
+		<label><u>Models</u></label><br>
+		<input type="radio" name="ml" value = "Grade" checked><label>Actual Data</label><br>
+        <input type="radio" name="ml" value = "pred_percep"><label>No Regulation Perceptron</label><br>
+        <input type="radio" name="ml" value = "pred_LR"><label>Linear Regression</label><br>
+        <input type="radio" name="ml" value = "pred_RR"><label>Ridge Regression</label><br>
+        <input type="radio" name="ml" value = "pred_KRR"><label>Kernelridge</label><br>
+        <input type="radio" name="ml" value = "pred_elastic_net"><label>Elastic Net</label><br>
+        <input type="radio" name="ml" value = "pred_tree"><label>Decision Tree</label><br>
+        <input type="radio" name="ml" value = "pred_forest"><label>Random Forest Regressor</label><br>
+        <input type="radio" name="ml" value = "pred_mlpr"><label>MLP Regressor</label><br>
+        <input type="radio" name="ml" value = "pred_svr_lin"><label>SVR Linear</label><br>
+        <input type="radio" name="ml" value = "pred_svr_rbf"><label>SVR RBF</label><br>
+        <input type="radio" name="ml" value = "pred_svr_sig"><label>SVR SIG</label><br>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div id="chart-area" class="chart"></div>
+		</div>
+	</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<!-- Javascript Imports -->
+<script src="./static/js/jquery.min.js"></script>
+<script src="./static/js/d3.min.js"></script>
+<!-- <script type="text/javascript" src="./static/js/attendance.js"></script> -->
+<script>
+var course = $("input[name=course]:checked").val();
+var model = $("input[name=ml]:checked").val();
+
+drawIsomap(course, model);
+
+$("input[type=radio][name=course]").change(function() {
+	course = $(this).val();
+
+	drawIsomap(course, model);
+});
+
+$("input[type=radio][name=ml]").change(function() {
+	model = $(this).val();
+
+	drawIsomap(course, model);
+});
+
+// Argument c stands for 'course'.
+// Argument m stands for 'model'.
+function drawIsomap(c, m)
+{
+	d3.json("./static/data/attend_grade_all_model.json").then(function(data)
+	{
+		d3.select("#chart-area svg").remove();
+
+		console.log(d3.max(data, function(d) {
+			return d[model] * 10 + 10;
+		}));
+
+		var width = d3.max(data.filter(function(d) { return d.Subject == c; }),
+			function(d) { return d[m] * 10 + 20; });
+		var height = d3.max(data.filter(function(d) { return d.Subject == c; }),
+			function(d) { return d.Attendence * 10 + 40; });
+
+		var svg = d3.select("#chart-area")
+				.append("svg")
+					.attr("width", width)
+					.attr("height", height);
+
+		var centerX = d3.select("svg").attr("width") / 2;
+		var centerY = d3.select("svg").attr("height") / 2;
+
+		var div = d3.select("body").append("div")
+		    .attr("class", "tooltip")
+		    .style("opacity", 0);
+
+		var circles = svg.selectAll("circle")
+			.data(data.filter(function(d) { return d.Subject == c; }))
+			.enter()
+				.append("circle")
+				.attr("cx", function(d) { return d[m] * 10 + 10; })
+				.attr("cy", function(d) { return d.Attendence * 10 + 20; })
+				.attr("r", 5)
+				.attr("fill", function(d) {
+					if (d.Sex == "M") return "blue";
+					else return "red";
+				})
+				.on("mouseover", function(d) {
+					var display = "Grade: " + d.Grade + "<br/>Absences: " + d.Attendence
+					+ "</br>Gender: " + d.Sex;
+
+					div.transition()
+		                .duration(200)
+		                .style("opacity", .9);
+
+		            div.html(display)
+		            	.style("left", (d3.event.pageX) + "px")
+                		.style("top", (d3.event.pageY - 28) + "px");
+				})
+				.on("mouseout", function(d) {
+					div.transition()
+		                .duration(500)
+		                .style("opacity", 0);
+				});
+	});
+}
+</script>
+</body>
+
+
+{% endblock %}

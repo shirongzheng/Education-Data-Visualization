@@ -1,20 +1,34 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<main class="hero-section">
-    <div class="container">
 
-      <div class="section-content">
-        <h2></h2>
-        
-      </div>
+<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
+				<!-- Header -->
+					<header id="header">
+						<h1>Education Data Visualization</h1>
+					    <p>Attendance &nbsp;&bull;&nbsp; Gender &nbsp;&bull;&nbsp; Logistic Regression</p>
+						<nav>
+							<ul>
 
-    </div>
-  </main>
-  
-  <script>
-    
-  </script>
+								<li><a href="/attendance_index" class="fa fa-calendar"><span>Attendance</span></a></li>
+								<li><a href="/gender" class="fa fa-users"><span>Gender</span></a></li>
+						        <li><a href="/logisticregression" class="fa fa-sun-o"><span>Logistic Regression</span></a></li>
 
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Senior Design Fall 2018: <a href="https://github.com/shirongzheng/Education-Data-Visualization">Education Data Visualization</a>.</span>
+					</footer>
+
+			</div>
+		</div>
+	</body>
 {% endblock %}
