@@ -1,0 +1,14 @@
+[
+{
+    "key": "Female",
+    "class_name": "Discrete Mathematics",
+    "Total_student": "Class population",
+    "value": 8
+  },
+  {
+    "key": "Male",
+    "class_name": "Discrete Mathematics",
+    "Total_student": "Class population",
+    "value": 23
+  }
+ ]

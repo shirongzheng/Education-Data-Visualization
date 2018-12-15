@@ -45,3 +45,7 @@ def heatmap():
 @app.route("/heatmap2")
 def heatmap2():
     return render_template("heatmap2.html")
+
+@app.route("/attendance_index")
+def attendance_index():
+    return render_template("attendance_index.html")
