@@ -26,23 +26,44 @@
         border: 1px solid #ff3366;   
         padding: 2px 7px 2px 7px;                            
       }
+      .donutToolTip {
+          position: absolute;
+          font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+          display: none;
+          width: auto;
+          height: auto;
+          color: #555;
+          /* line-height: 200%; */
+          background: none repeat scroll 0 0 white;
+          border: 18 none;
+          border-radius: 8px 8px 8px 8px;
+          box-shadow: -3px 3px 15px #888888;
+          font-size: 12pt;
+          padding: 6px 9px 6px 9px;
+          margin: 16px;
+          text-align: left;
+      }
+     
     </style>
-    <!-- <script type='text/javascript' src='jquery.js'></script> -->
+    <script type='text/javascript' src='./static/js/jquery-1.10.2.min.js'></script>
     <script type='text/javascript' src='./static/js/d3.v4.min.js'></script>
   </head>
-  <body>
+  <body>    
     <div id="chart"></div>      
-    <script>
-      
-      
+    <div id="pie-chart">
+      <div id="gpa_select_box">      
+      </div>
+    </div>
 
+    
+    <script>
       var margin = {
             top: 50,
             right: 50,
             bottom: 100,
             left: 80
           },
-          width = 1200 - margin.left - margin.right,
+          width = 1000 - margin.left - margin.right,
           height = 600 - margin.top - margin.bottom;
 
       var colors = {
@@ -66,6 +87,15 @@
             .attr('class', 'svg-layer')
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+          svg.append('rect')
+            .attr('x', -60)
+            .attr('y', -30)
+            .attr('width', 1000 - 40)
+            .attr('height', 600 - 40)
+            .attr('fill', 'none')
+            .attr('stroke', 'black')
+            .attr('stroke-width', 2)
+
       var tooltip = d3.select("body").append("div")   
         .attr("class", "tooltip")           
         .style("position", 'absolute')    
@@ -75,14 +105,53 @@
       var chart_layer = svg.append('g')
             .attr('class', 'chart-layer')
             .attr("transform", function(d) { return "translate(" + 0  + "," + 0 + ")"; });
-          
 
+
+      // Pie Chart
+      var chart_r = 150;
+      var svg1 = d3.select("#pie-chart")      
+            .append("svg")
+            .attr("width", 1000)
+            .attr("height", 800)
+            .append("g")
+            .attr('class', 'svg1')
+            .attr("transform", "translate(" + 200 + "," + 0 + ")");
+
+        svg1.append('rect')
+            .attr('x', -180)
+            .attr('y', 0)
+            .attr('width', 1000 - 40)
+            .attr('height', 600 - 80)
+            .attr('fill', 'none')
+            .attr('stroke', 'black')
+            .attr('stroke-width', 2)
+
+      var pie_layer = svg1.append('g')
+            .attr('class', 'pie-layer')
+            .attr("transform", function(d) { return "translate(" + 20  + "," + 280 + ")"; });
+
+      var pie_layer1 = svg1.append('g')
+            .attr('class', 'pie-layer1')
+            .attr("transform", function(d) { return "translate(" + 460  + "," + 280 + ")"; });
+
+      var tooltip1 = d3.select("body").append("div")   
+        .attr("class", "donutToolTip")           
+        .style("position", 'absolute')    
+        .style("opacity", 0)        
+        .style("z-index", "10");
+        
+      var new_data = [];
       d3.csv("./static/data/attend_grade_all_model.csv", function(error, data) {
         if (error) throw error;
         //console.log('data', data);
-        var chart_data = process_data(data);
+        new_data = process_data(data);
+        var chart_data = filter_data(new_data);
+        console.log('chart_data', chart_data);
         draw_chart(chart_data);
+        draw_piechart(chart_data);
       });
+
+
 
 
       var grade_to_gpa = [
@@ -153,7 +222,8 @@
         }
       ];
 
-      var draw_chart = function(data) {        
+      var draw_chart = function(data) {
+                 
           var x = d3.scaleLinear()
             .domain([-0.5, d3.max(data, function(d) {
                           return +d.gpa
@@ -364,8 +434,6 @@
               .attr('text-anchor', 'middle')
               .attr('fill', 'red')                
               .text("Best Fit Probability of Passing");
-                
-
             
             function genPath(w, h, points) {
                 var path = "";
@@ -378,15 +446,374 @@
             }
 
 
+
+      }
+
+      var pie = d3.pie()
+                    .sort(null)
+                    .value(function(d) {
+                        return d.val;
+                    })
+                    .padAngle(.02);
+
+      var pie1 = d3.pie()
+                    .sort(null)
+                    .value(function(d) {
+                        return d.val;
+                    })
+
+                    
+      var thresholds = [3.5, 3.0, 2.5, 2.0, 1.5, 1.0, 0.5, 0];
+      var color = d3.scaleOrdinal()
+        .range(["#b35959","#b35710","#29801d","#118080","#67279c","#821682",
+            "#96051e","#ff8080","ff7d17","#49e635","#21ffff","#a140ff","#ff2bff","#ff0833","#cca724"]);
+
+        // .range(['#044E84', '#00ACEE', '#FF2C4A', '#FDDB2D', '#7BC13D'])  
+        // d3.rgb(colorScale(d.score)).darker(0.8);
+      var draw_piechart = function(data) {                    
+
+          update_pie(data);
+          update_pie1(data);          
+
+          function getPieData(data) {              
+              piedata = [{cat: 'Male', val: 0}, {cat: 'Female', val: 0}];
+              console.log('DATA', data);                            
+              data.forEach(function(d) {                                                     
+                    piedata[0].val += d.male_count;
+                    piedata[1].val += d.female_count;                  
+              })
+              return piedata;              
+          }
+          
+          function getPieData1(data) {              
+              var piedata1 = [];              
+              var piedata2 = [];
+              console.log('thresholds', thresholds);
+              thresholds.forEach(function() {
+                piedata1.push({cat: "Male", val: 0});
+                piedata1.push({cat: "Female", val: 0});
+                piedata2.push({cat: "total", val: 0});
+              });
+              data.forEach(function(d) {                                                     
+                var idx = get_data_index(d.gpa);
+                piedata1[2*idx].val += d.male_count;
+                piedata1[2*idx + 1].val += d.female_count;
+                piedata2[idx].val += d.total_count;
+              })
+              return [piedata1, piedata2];              
+          }
+
+          function get_data_index(gpa) {
+              for(var i=0; i < thresholds.length; i++) {
+                  if(gpa >= thresholds[i]) {
+                    return i;
+                  }
+              }
+          }
+
+          
+          
+          function update_pie(data) {                            
+              piedata = getPieData(data);  
+              console.log('piedata', piedata);           
+              console.log('radius', chart_r);
+              var arc = d3.arc()
+                              .innerRadius(chart_r * 0.7)
+                              .outerRadius(chart_r);
+              pie_layer
+                .append('text')
+                  .attr('class', '')                  
+                  .attr("x", 0)                                        
+                  .attr("y", -220)                                        
+                  .attr('text-anchor', 'middle')
+                  .style("font-size", '25px')                  
+                  .style("fill", 'black')
+                  .text("Total Number Of Male And Female") 
+              // Start joining data with paths
+              var paths = pie_layer
+                              .selectAll('path')
+                              .data(pie(piedata));  
+
+                          
+
+              paths.enter()
+                  .append('path')                 
+                      .attr("id", function(d,i) { return "arc"+i; })     
+                      .style('fill', function(d, i) {
+                        console.log('d', d);
+                          if(i == 0) {
+                            return "#42FF3D";
+                          } 
+                          return '#FF5357';
+                      })
+                      .style('stroke', '#FFFFFF')                      
+                      .attr('d', arc)                      
+                      .on('mouseover', function(d) {
+                        console.log('hover');
+                        d3.select(this)
+                          .transition()
+                            .duration(200)                          
+                            .attr('d', d3.arc()
+                                .innerRadius(chart_r * 0.7)
+                                .outerRadius(chart_r * 1.05)
+                            );
+
+                        tooltip1.transition().duration(200).style("opacity", .9);      
+                            var infoHtml = '';
+                            // infoHtml = "GPA: " + d.total_count;
+                            infoHtml += d.data.cat + '<br>' + d.data.val;                            
+                            tooltip1.html(infoHtml)  
+                              .style('display', 'block')
+                              .style("left", (d3.event.pageX + 10) + "px")     
+                              .style("top", (d3.event.pageY + 10) + "px");                        
+                      })
+                      .on('mouseout', function(d) {
+                        d3.select(this)
+                          .transition()
+                          .duration(200)                          
+                          .attr('d', d3.arc()
+                              .innerRadius(chart_r * 0.7)
+                              .outerRadius(chart_r * 1.0)
+                          ); 
+
+                        tooltip1.transition().duration(50).style("opacity", 0);   
+                        tooltip1
+                          .style('display', 'none');                         
+                      });  
+
+              paths                  
+                  .transition()
+                  .duration(1000)                  
+                  .attrTween("d", function(d) {
+                      console.log('tween')
+                      this._current = this._current || d;
+                      var interpolate = d3.interpolate(this._current, d);
+                      this._current = interpolate(0);
+                      return function(t) {
+                          return arc(interpolate(t));
+                      };
+                  })
+
+              paths.exit().remove();
+
+
+              var valueLabel = pie_layer.selectAll("text.donut-value")
+                  .data(pie(piedata));
+
+              valueLabel
+                  .enter()
+                  .append('text')
+                  .attr('class', 'donut-value')                  
+                  .attr("dy", function(d, i) {
+                    return i * 20;
+                  })                                        
+                  .attr('text-anchor', 'middle')
+                  .style("font-size", '20px')                  
+                  .style("fill", 'black')
+                  .text(function(d) {return d.data.cat + " (" + d.value + ")"})        
+
+              valueLabel.transition()        
+                  .duration(500)                                  
+                  .attr("dy", function(d, i) {
+                    return i * 20;
+                  })   
+                  .text(function(d) {return d.data.cat + " (" + d.value + ")"})        
+
+              valueLabel.exit().remove();
+          }
+
+
+          function update_pie1(data) {                            
+              ret = getPieData1(data);  
+              var piedata1 = ret[0];
+              var piedata2 = ret[1];
+
+              var arc1 = d3.arc()
+                              .innerRadius(chart_r * 0.0)
+                              .outerRadius(chart_r);
+
+              pie_layer1
+                .append('text')
+                  .attr('class', '')                  
+                  .attr("x", 0)                                        
+                  .attr("y", -220)                                        
+                  .attr('text-anchor', 'middle')
+                  .style("font-size", '25px')                  
+                  .style("fill", 'black')
+                  .text("GPA Range For Male and Female") 
+
+              // Start joining data with paths
+              var layer1 = pie_layer1.append('g').attr('class', 'layer1');
+              var layer2 = pie_layer1.append('g').attr('class', 'layer2');
+
+              var paths1 = layer1
+                              .selectAll('path')
+                              .data(pie1(piedata1));              
+
+              paths1.enter()
+                  .append('path')                 
+                      .attr("id", function(d,i) { return "arc"+i; })     
+                      .style('fill', function(d, i) {
+                        // console.log('d', d);
+                          if(i % 2 == 0) {
+                            return d3.rgb(color(i / 2)).darker(0.3);
+                          } 
+                          return color(i / 2 - 0.5);
+                      })
+                      .style('stroke', '#FFFFFF')                      
+                      .attr('d', arc1)                      
+                      .on('mouseover', function(d, i) {
+                        console.log('hover');
+                        d3.select(this)
+                          .transition()
+                            .duration(200)                          
+                            .attr('d', d3.arc()
+                                .innerRadius(chart_r * 0.0)
+                                .outerRadius(chart_r * 1.05)
+                            ); 
+                        tooltip1.transition().duration(200).style("opacity", .9);      
+                            var infoHtml = '';
+                            var gpa_text = '';
+                            var id = Math.floor(i / 2); 
+                            if(id == 0) {
+                              gpa_text = thresholds[id] + '~' + '4.0';
+                            } else {
+                              gpa_text =  thresholds[id] + '~' + (thresholds[id-1] - 0.1);
+                            }
+                            infoHtml = "GPA: " + gpa_text;
+                            infoHtml += "<br>" + d.data.cat + ': ' + d.data.val;                            
+                            tooltip1.html(infoHtml)  
+                              .style('display', 'block')
+                              .style("left", (d3.event.pageX + 10) + "px")     
+                              .style("top", (d3.event.pageY + 10) + "px");                        
+                      })
+                      .on('mouseout', function(d) {
+                        d3.select(this)
+                          .transition()
+                          .duration(200)                          
+                          .attr('d', d3.arc()
+                              .innerRadius(chart_r * 0.0)
+                              .outerRadius(chart_r * 1.0)
+                          );    
+
+                        tooltip1.transition().duration(50).style("opacity", 0);   
+                        tooltip1
+                          .style('display', 'none');                      
+                      });              
+
+              paths1.exit().remove();
+
+              
+              var text = layer1.selectAll("text.detail")
+                .data(pie(piedata1))
+                .enter().append("text")
+                  .attr('class', 'detail')
+                  
+              
+              
+              text.append("tspan") 
+                  .style("visibility", function(d) {
+                    if((d.endAngle - d.startAngle) > 0.15) {
+                      return 'visible';
+                    } else {
+                      return 'hidden';
+                    }
+                  })         
+                  .style("font-weight", "bold")
+                  // .style("fill", "white")
+                  .text(d => d.data.cat + '(' + d.data.val + ')')
+                  .style('fill', function(d, i) {
+                      // console.log('d', d);
+                        if(i % 2 == 0) {
+                          return d3.rgb(color(i / 2)).darker(0.3);
+                        } 
+                        return color(i / 2 - 0.5);
+                    })
+                  .each(function(d) {
+                    var centroid = arc1.centroid(d);
+                    d3.select(this)
+                      .attr('x', function(d) {  
+                        if(d.startAngle > 5.5) {
+                          return centroid[0]*2.4
+                        }                    
+                        if(d.startAngle > 3.8) {
+                          return centroid[0]*3.3
+                        }
+                        if(d.startAngle > 3.5) {
+                          return centroid[0]*3.6
+                        }
+                        return centroid[0]*2.4;
+                      })
+                      .attr('y', centroid[1]*2.4)
+                      .attr('dy', '-0.6em')                      
+
+                  });
+              
+              text.filter(d => (d.endAngle - d.startAngle) > 0.15).append("tspan")                  
+              text.append("tspan")                  
+                  .style("visibility", function(d) {
+                    if((d.endAngle - d.startAngle) > 0.15) {
+                      return 'visible';
+                    } else {
+                      return 'hidden';
+                    }
+                  })
+                  .attr("text-anchor", 'start')
+                  .style("font-weight", "bold")
+                  // .style("fill", "white")
+                  .attr("fill-opacity", 0.7)
+                  .text(function(d,i) {  
+                    var id = Math.floor(i / 2);                  
+                    if(id == 0) {
+                      return thresholds[id] + '~' + '4.0';
+                    } else {
+                      return thresholds[id] + '~' + (thresholds[id-1] - 0.1);
+                    }
+                    
+                  })
+                  .style('fill', function(d, i) {
+                    console.log('dd' + i, d);
+                      if(i % 2 == 0) {
+                        return d3.rgb(color(i / 2)).darker(0.3);
+                      } 
+                      return color(i / 2 - 0.5);
+                  })
+                  .each(function(d) {
+                    var centroid = arc1.centroid(d);
+                    d3.select(this)
+                      .attr('x', function(d) {  
+                        if(d.startAngle > 5.5) {
+                          return centroid[0]*2.4
+                        }                    
+                        if(d.startAngle > 3.8) {
+                          return centroid[0]*3.3
+                        }
+                        if(d.startAngle > 3.5) {
+                          return centroid[0]*3.6
+                        }
+                        return centroid[0]*2.4;
+                      })
+                      .attr('y', centroid[1]*2.4)
+                      .attr('dy', '0.33em')                      
+                  });
+
+
+
+              
+              // valueLabel.exit().remove();
+          }
       }
 
 
+
+
       var process_data = function(data) {          
-        var dataset = [];
+        
         //console.log('grade_to_gpa.length', grade_to_gpa.length);
         var date_list = [];        
         var graduated_dates = [];
-        var under_graduated_dates = [];
+        var under_graduated_dates = [];  
+        var man = 0;      
         data.forEach(function(d) {          
           if(date_list.findIndex(x => x == d.Date) == -1) {
             date_list.push(d.Date);
@@ -396,37 +823,44 @@
               under_graduated_dates.push(d.Date);
             }
           }
-        });  
+          if(d.Sex == 'M') ++man;
+        });          
         //console.log('date_list', date_list);
-        //console.log('graduated_dates', graduated_dates);
-        //console.log('under graduated_dates', under_graduated_dates);      
+        console.log('graduated_dates', graduated_dates);
+        console.log('under graduated_dates', under_graduated_dates);              
+
         var index = 0;
         var date_index1 = 0;
-        var date_index2 = 0;
-        var new_data = [];
+        var date_index2 = 0;        
         for(var i = 0; i <= 4.0; i=i+0.1) {
             if(i == 0.1) {         
-               add_under_graduated_data_record(i, 100);
+               add_under_graduated_data_record(i, 90);
             } else if(i < 2.0) {         
-              add_under_graduated_data_record(i, i * 10 + 10);
+              add_under_graduated_data_record(i, i * 7 - 1);
             } else if(i < 2.7) {
-              add_under_graduated_data_record(i, i * 10 + 10);
+              add_under_graduated_data_record(i, i * 7 - 1);
             } else {
-              add_under_graduated_data_record(i, (2.7 - (i - 2.7)) * 10 + 10);
+              add_under_graduated_data_record(i, (2.7 - (i - 2.7)) * 7);
             }            
         }
 
         for(var i = 0; i <= 4.0; i=i+0.1) {
             if(i == 0.1) {
-               add_graduated_data_record(i, 10);               
+               add_graduated_data_record(i, 7);               
             } else if(i < 2.0) {
-              add_graduated_data_record(i, Math.floor(i * 2 ));              
+              add_graduated_data_record(i, Math.floor(i * 2));              
             } else if(i < 3) {
-              add_graduated_data_record(i, i * 20 + 10);              
+              add_graduated_data_record(i, i * 15 + 10);              
             } else {
-              add_graduated_data_record(i, (3 - (i - 3)) * 20 + 10);              
+              add_graduated_data_record(i, (3 - (i - 3)) * 15);              
             }
         }
+
+
+
+
+
+
 
 
 
@@ -474,6 +908,13 @@
                 // //console.log('grade', grade);
             }             
         }
+        console.log('new_data', new_data);        
+        return new_data;
+      }
+      
+
+      function filter_data(new_data, semester = "all") {        
+        var dataset = [];
         new_data.forEach(function(d) {          
           var idx = getGradeRangeIndex(d.Grade);          
           // //console.log('index', idx);
@@ -492,11 +933,18 @@
             cell.gpa = gpa;
             
             cell.grade_letter = grade_to_gpa[idx].grade_letter;              
-            dataset.push(cell);
+            if(semester == "all") {
+              dataset.push(cell);  
+            } else {
+              if(d.Date == semester) {
+                dataset.push(cell);  
+              }
+            }
+            
           } 
           // //console.log('cell', d);
         });
-        //console.log('dataset', dataset);
+        console.log('dataset', dataset);
         
         var nest1 = d3.nest()            
           .key(function(d){
@@ -528,6 +976,10 @@
               return {total_count: total_count, male_count: male_count, female_count: female_count, prediction: prediction};
             })                                  
           .entries(dataset);
+          console.log('nest1', nest1);
+
+          gpa_values = [];
+
           var graduated_count = 0;
           var under_graduated_count = 0;
           
@@ -546,12 +998,15 @@
                 cell.female_count = child.value.female_count;
                 cell.prediction = child.value.prediction;
                 chart_data.push(cell);  
+                
               });
+              gpa_values.push(d.key);
             // //console.log('cell', d);
           });
           //console.log('chart_data', chart_data);
           //console.log('graduated_count', graduated_count);
           //console.log('under_graduated_count', under_graduated_count);
+          console.log('gpa_values', gpa_values);
 
           return chart_data;
       }
