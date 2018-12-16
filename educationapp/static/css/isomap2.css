@@ -1,19 +1,24 @@
 body {
-	background-color: #F1F3F3;
-	text-align: center;
+    background-color: #F1F3F3;
+    text-align: center;
 }
 
 svg {
-	background-color: white;
-	/*display: block;
-	margin: auto;*/
+    background-color: white;
+    display: block;
+    margin: auto;
     border: 1px solid black;
 }
 
+#barchart {
+    background-color: black;
+    display:block;
+}
+
 h3 {
-	background: black;
-	color: white;
-	display: inline;
+    background: black;
+    color: white;
+    display: inline;
 }
 
 /*Legend*/
@@ -91,5 +96,22 @@ body {
 }
 
 label {
-	color: white;
+    color: white;
+}
+
+rect.selection {
+    stroke          : gray;
+    stroke-dasharray: 4px;
+    stroke-opacity  : 0.5;
+    fill            : transparent;
+}
+
+svg text {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+svg text::selection {
+    background: none;
 }
