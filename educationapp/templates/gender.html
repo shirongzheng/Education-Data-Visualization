@@ -83,7 +83,7 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
               .domain([0, buckets - 1, d3.max(data, function (d) { return d.value; })])
               .range(colors);
 
-          var cards = svg.selectAll(".hour")
+          var cards = svg.selectAll(".value")
               .data(data, function(d) {return d.day+':'+d.hour;});
 
           cards.append("title");
