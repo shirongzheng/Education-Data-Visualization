@@ -106,6 +106,10 @@
             .attr('class', 'chart-layer')
             .attr("transform", function(d) { return "translate(" + 0  + "," + 0 + ")"; });
 
+      var popup_layer = svg.append('g')
+            .attr('class', 'popup-layer')
+            .attr("transform", function(d) { return "translate(" + 400  + "," + 200 + ")"; });
+
 
       // Pie Chart
       var chart_r = 150;
@@ -150,9 +154,6 @@
         draw_chart(chart_data);
         draw_piechart(chart_data);
       });
-
-
-
 
       var grade_to_gpa = [
         {
@@ -308,6 +309,36 @@
             .attr("x2", x(base_gpa))
             .attr("y2", y(y.domain()[1]));  
 
+          // 
+
+          // Math.exp(1)
+          var line_data = [];
+          for (var i= -0.2; i <= 4; i=i+0.1) {
+             var coord = {};
+             coord.x = i + 0.2;
+             // coord.y = 50 / (1 + Math.exp(-2*i + 3)) + 6;
+             coord.y = 2.5 * Math.pow(1.1*(i - 1.6), 3) + 40;
+             line_data.push(coord);
+          }
+          //console.log('line_data', line_data); 
+          var plotLine = d3.line()
+            .curve(d3.curveMonotoneX)
+            .x(function(d) {
+              return x(d.x);                            
+            })
+            .y(function(d) {              
+              return y(d.y);
+            });
+
+          var line = chart_layer.append("path")
+              .data([line_data])
+              .attr('class', 'probabiliy-curve')
+              .attr("d", plotLine)            
+              .attr("stroke", "brown")
+              .attr("stroke-width", "2")
+              .attr("fill", "none");
+
+
           drawTexts(["TP (True Positive)","Correctly Predicted", "to pass"], x(base_gpa + 0.1), y(70));
           drawTexts(["FP (False Positive)","Incorrectly Predicted", "to pass"], x(base_gpa + 0.1), y(45));          
 
@@ -331,24 +362,7 @@
               })            
           }
 
-          var plotLine = d3.line()
-            .curve(d3.curveMonotoneX)
-            .x(function(d) {
-              return x(d.x);                            
-            })
-            .y(function(d) {              
-              return y(d.y);
-            });
-
-          // Math.exp(1)
-          var line_data = [];
-          for (var i= -0.2; i <= 4; i=i+0.1) {
-             var coord = {};
-             coord.x = i + 0.2;
-             coord.y = 50 / (1 + Math.exp(-2*i + 3)) + 6;
-             line_data.push(coord);
-          }
-          //console.log('line_data', line_data);         
+          
      
 
           var bubble = chart_layer.selectAll('g.bubble')
@@ -402,16 +416,11 @@
               tooltip.transition().duration(50).style("opacity", 0);   
               tooltip
                 .style('display', 'none');                
+            })
+            .on("click", function(d) {
+               console.log('d', d);
+               draw_popup_pie(d);
             }); 
-
-
-            var line = chart_layer.append("path")
-              .data([line_data])
-              .attr('class', 'probabiliy-curve')
-              .attr("d", plotLine)            
-              .attr("stroke", "brown")
-              .attr("stroke-width", "2")
-              .attr("fill", "none");
 
             var w = 10, h = 50;
             var points = [
@@ -434,6 +443,13 @@
               .attr('text-anchor', 'middle')
               .attr('fill', 'red')                
               .text("Best Fit Probability of Passing");
+
+
+
+
+            
+
+
             
             function genPath(w, h, points) {
                 var path = "";
@@ -443,6 +459,86 @@
                 })
                 path += " Z";
                 return path;
+            }
+
+            function draw_popup_pie(_data) {
+                // popup_layer  
+                popup_layer.selectAll('*').remove();
+
+                _piedata = [
+                              {cat: "Male", val: _data.male_count},
+                              {cat: "Female", val: _data.female_count},
+                          ];              
+
+                var _pie = d3.pie()
+                    .sort(null)
+                    .value(function(d) {
+                        return d.val;
+                    });
+
+                var _arc = d3.arc()
+                                  .innerRadius(0.0)
+                                  .outerRadius(80);
+
+
+                var _path = popup_layer
+                    .append('text')
+                      .attr('class', '')                  
+                      .attr("x", 0)                                        
+                      .attr("y", 20)                                        
+                      .attr('text-anchor', 'middle')
+                      .style("font-size", '25px')                  
+                      .style("fill", 'black')
+                      .text("GPA Range") 
+
+                var _path = popup_layer
+                                  .selectAll('path')
+                                  .data(pie1(_piedata)); 
+
+                  _path.enter()
+                      .append('path')                 
+                      .attr("id", function(d,i) { return "arc"+i; })     
+                      .style('fill', function(d, i) {
+                        return (i == 0) ? '#f44336' : '#2196f3';
+                      })
+                      .style('stroke', '#FFFFFF')                      
+                      .attr('d', _arc)
+                      .on('click', function() {
+                          popup_layer.selectAll('*').remove();
+                      })
+                  
+                  var _text = popup_layer.selectAll("text.popup-detail")
+                    .data(pie(_piedata))
+                    .enter().append("text")
+                      .attr('class', 'popup-detail')                  
+
+                  _text.append("tspan")                   
+                      .style("font-weight", "bold")
+                      .style("fill", "white")
+                      .attr('text-anchor', 'middle')
+                      .text(d => d.data.cat)                                        
+                      .each(function(d) {
+                        var centroid = _arc.centroid(d);
+                        d3.select(this)
+                          .attr('x', function(d) {                          
+                            return centroid[0] * 1.2;
+                          })
+                          .attr('y', centroid[1] * 1.2)
+                          .attr('dx', '0em')                      
+
+                      });
+
+                  _text.append("tspan")                   
+                      .style("font-weight", "bold")
+                      .style("fill", "white")
+                      .attr('text-anchor', 'middle')
+                      .text(d => d.data.val) 
+                      .attr('x', function(d) {                          
+                        var centroid = _arc.centroid(d);
+                        return centroid[0] * 1.2;
+                      })
+                      .attr('dy', 18)                   
+                      .attr('dx', '0em')                      
             }
 
 
@@ -749,7 +845,7 @@
 
                   });
               
-              text.filter(d => (d.endAngle - d.startAngle) > 0.15).append("tspan")                  
+                              
               text.append("tspan")                  
                   .style("visibility", function(d) {
                     if((d.endAngle - d.startAngle) > 0.15) {
