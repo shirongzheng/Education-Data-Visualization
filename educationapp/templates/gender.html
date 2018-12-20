@@ -73,7 +73,7 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
             //.attr("transform", function(d) { return "translate", "rotate(-60)" })
             .attr("class", function(d, i) { return ((i >= 7 && i <= 16) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"); })
             ;
-
+      colors2 = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0"]
       var heatmapChart = function(tsvFile) {
         d3.tsv(tsvFile,
         function(d) {
@@ -87,6 +87,12 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
           var colorScale = d3.scale.quantile()
               .domain([0, buckets - 1, d3.max(data, function (d) { return d.value; })])
               .range(colors);
+
+          var colorScale2 = d3.scale.quantile()
+            .domain([0, /*buckets - 1*/5, 0.05])
+            .range(colors2);
+
+
 
           var cards = svg.selectAll(".hour")
               .data(data, function(d) {return d.day+':'+d.hour;});
@@ -106,15 +112,15 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
               .on('click', function (d, i){
                 if (d.day == 1 && d.hour == 1){
                   window.open ("/static/data/window/gem03-2009-01/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 else if (d.day == 2 && d.hour == 1){
                   window.open ("/static/data/window/gem03-2009-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                  else if (d.day == 1 && d.hour == 2){
                   window.open ("/static/data/window/gsi014-2010-01/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                  //else if (d.day == 2 && d.hour == 2){
                   //window.open ("/static/data/window/gsi014-2010-02/index.html",
@@ -122,11 +128,11 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
                 //}
                 else if (d.day == 1 && d.hour == 3){
                   window.open ("/static/data/window/gsi014-2011-01/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                  else if (d.day == 2 && d.hour == 3){
                   window.open ("/static/data/window/gsi014-2011-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 /* else if (d.day == 1 && d.hour == 4){
                   window.open ("/static/data/window/ObjectOrientedProgramming2012-02/zoomable.html",
@@ -134,31 +140,31 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
                 } */
                 else if (d.day == 2 && d.hour == 4){
                   window.open ("/static/data/window/gsi015-2012-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 else if (d.day == 1 && d.hour == 5) {
                   window.open ("/static/data/window/gsi015-2013-01/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 else if (d.day == 2 && d.hour == 5){
                   window.open ("/static/data/window/gsi015-2013-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                  else if (d.day == 1 && d.hour == 6){
                   window.open ("/static/data/window/gsi015-2014-01/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 else if (d.day == 2 && d.hour == 6) {
                   window.open ("/static/data/window/gsi015-2012-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 else if (d.day == 1 && d.hour == 7){
                   window.open ("/static/data/window/gsi015-2015-01/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 else if (d.day == 2 && d.hour == 7) {
                   window.open ("/static/data/window/gsi015-2015-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 /* else if (d.day == 1 && d.hour == 8){
                   window.open ("/static/data/window/ObjectOrientedProgramming2016-02/zoomable.html",
@@ -166,27 +172,27 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
                 } */
                 else if (d.day == 2 && d.hour == 8){
                   window.open ("/static/data/window/gsi015-2016-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                  else if (d.day == 1 && d.hour == 9){
                   window.open ("/static/data/window/inf63-2009-01/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                  else if (d.day == 2 && d.hour == 9){
                   window.open ("/static/data/window/inf63-2009-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 else if (d.day == 1 && d.hour == 10){
                   window.open ("/static/data/window/inf63-2010-01/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 else if (d.day == 2 && d.hour == 10) {
                   window.open ("/static/data/window/inf63-2010-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 else if (d.day == 1 && d.hour == 11){
                   window.open ("/static/data/window/facom49010-2011-01/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                  //else if (d.day == 2 && d.hour == 11){
                   //window.open ("/static/data/window/facom49010-2011-02/index.html",
@@ -198,7 +204,7 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
                 //}
                 else if (d.day == 2 && d.hour == 12) {
                   window.open ("/static/data/window/facom49010-2014-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 //else if (d.day == 1 && d.hour == 13) {
                   //window.open ("/static/data/window/ggi017-2016-01/index.html",
@@ -206,7 +212,7 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
                 //}
                 else if (d.day == 2 && d.hour == 13){
                   window.open ("/static/data/window/ggi017-2016-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 //else if (d.day == 1 && d.hour == 14) {
                   //window.open ("/static/data/window/ggi017-2017-01/index.html",
@@ -214,7 +220,7 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
                 //}
                 else if (d.day == 2 && d.hour == 14){
                   window.open ("/static/data/window/ggi017-2017-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 //else if (d.day == 1 && d.hour == 15){
                   //window.open ("/static/data/window/ggi005-2017-01/index.html",
@@ -222,7 +228,7 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
                 //}
                  else if (d.day == 2 && d.hour == 15){
                   window.open ("/static/data/window/ggi005-2017-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                  //else if (d.day == 1 && d.hour == 16){
                   //window.open ("/static/data/window/gsi037-2015-01/index.html",
@@ -230,15 +236,15 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
                 //}
                 else if (d.day == 2 && d.hour == 16){
                   window.open ("/static/data/window/gsi037-2015-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 else if (d.day == 1 && d.hour == 17) {
                   window.open ("/static/data/window/gfm015-2015-01/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 else if (d.day == 2 && d.hour == 17){
                   window.open ("/static/data/window/gfm015-2015-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                  //else if (d.day == 1 && d.hour == 18){
                   //window.open ("/static/data/window/gsi005-2011-01/index.html",
@@ -246,7 +252,7 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
                 //}
                  else if (d.day == 2 && d.hour == 18){
                   window.open ("/static/data/window/gsi005-2011-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 //else if (d.day == 1 && d.hour == 19){
                   //window.open ("/static/data/window/gsi005-2012-01/index.html",
@@ -254,19 +260,19 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
                 //}
                 else if (d.day == 2 && d.hour == 19) {
                   window.open ("/static/data/window/gsi005-2012-02/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                  else if (d.day == 1 && d.hour == 20){
                   window.open ("/static/data/window/gsi005-2013-01/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                  else if (d.day == 2 && d.hour == 20){
                   window.open ("/static/data/window/gsi005-2013-01/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                  else if (d.day == 1 && d.hour == 21){
                   window.open ("/static/data/window/gsi005-2014-01/index.html",
-                "mywindow","menubar=1,resizable=1,width=830,height=450");
+                "mywindow","menubar=1,resizable=1,width=1200,height=550");
                 }
                 //else if (d.day == 2 && d.hour == 21){
                   //window.open ("/static/data/window/gsi005-2014-02/index.html",
@@ -279,16 +285,38 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
               ;
 
           cards.transition().duration(1000)
-              .style("fill", function(d) { return colorScale(d.value); });
+              .style("fill", function(d) {
+                if (current_meow == "meow3")
+                  return colorScale2(d.value);
+                else
+                  return colorScale(d.value);
+                });
 
-          cards.select("title").text(function(d) { return d.value; });
+          cards.select("title").text(function(d) {
+            return d.value; });
 
           //$("cards").on("click", function());
-
+          var meow_num = -0.00625;
+          var meow_list = [];
+          for (var i = 0; i < 8; ++i)
+          {
+            meow_list.push(meow_num += 0.00625);
+          }
+          var counter = 0;
           cards.exit().remove();
-
-          var legend = svg.selectAll(".legend")
-              .data([0].concat(colorScale.quantiles()), function(d) { return d; });
+          // console.log("meow:" + d);
+          var legend;
+          if (current_meow == "meow3")
+          {
+            legend = svg.selectAll(".legend")
+               .data([0].concat(colorScale2.quantiles()), function(d) { return d; });
+          }
+          else {
+            legend = svg.selectAll(".legend")
+               .data([0].concat(colorScale.quantiles()), function(d) { return d; });
+          }
+          // var legend = svg.selectAll(".legend")
+          //    .data([0].concat(colorScale.quantiles()), function(d) { return d; });
 
           legend.enter().append("g")
               .attr("class", "legend");
@@ -302,11 +330,23 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
             .attr("height", gridSize / 2)
             .style("fill", function(d, i) { return colors[i]; });
 
-          legend.append("text")
-            .attr("class", "mono")
-            .text(function(d) { return "≥ " + Math.round(d); })
-            .attr("x", function(d, i) { return legendElementWidth * i; })
-            .attr("y", 170);
+          if (current_meow == "meow3")
+          {
+            legend.append("text")
+              .attr("class", "mono")
+              .text(function(d) {
+               return "≥ " + meow_list[counter++];
+              /*return "≥ " + Math.round(d);*/ })
+              .attr("x", function(d, i) { return legendElementWidth * i; })
+              .attr("y", 170);
+          }
+          else {
+            legend.append("text")
+              .attr("class", "mono")
+              .text(function(d) { return "≥ " + Math.round(d); })
+              .attr("x", function(d, i) { return legendElementWidth * i; })
+              .attr("y", 170);
+          }
 
           legend.exit().remove();
 
@@ -314,17 +354,22 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
       };
 
       heatmapChart(datasets[0]);
-
+      var meow = 1;
       var datasetpicker = d3.select("#dataset-picker").selectAll(".dataset-button")
         .data(datasets);
-
+      var current_meow;
       datasetpicker.enter()
         .append("input")
         .attr("value", function(d){ return "Dataset " + d })
         .attr("type", "button")
         .attr("class", "dataset-button")
+        .attr("id", function() {
+          var meow_id = "meow" + meow++;
+          return meow_id;
+        })
         .style("background", "blue")
         .on("click", function(d) {
+          current_meow = $(this).attr("id");
           heatmapChart(d);
         });
 //function zoom() {
