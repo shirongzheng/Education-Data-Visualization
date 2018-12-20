@@ -1,13 +1,35 @@
 var margin = { left:60, right:0, top:0, bottom:60 };
 
-var select = $("#var-select").val();
+// var select = $("#var-select").val();
+var select = $("input[name=subject]:checked").val();
 
 drawHeatmap(select);
 
-$("#var-select").change(function() {
-	select = $(this).val();
+// $("#var-select").change(function() {
+// 	select = $(this).val();
 	
+// 	drawHeatmap(select);
+// })
+
+$("input[type=radio][name=subject]").change(function() {
+	select = $(this).val();
+	// console.log(model2);
 	drawHeatmap(select);
+});
+
+// $(document.body).on("click", function() { 
+
+// 	if ($("#mySidenav").width() == 250) {
+// 		closeNav();
+// 	}
+// } )
+
+$("#chart-area").on("click", function() {
+	closeNav();
+})
+
+$("#chart-area2").on("click", function() {
+	closeNav();
 })
 
 function drawHeatmap(s) {
@@ -77,6 +99,18 @@ function drawHeatmap(s) {
 			for (var j = 0; j < maxAbsence; ++j)
 			{
 				matrix[i][j] = (matrix[i][j] / total_students) * 100;
+			}
+		}
+
+		// temp edit for report
+		for (var i = 0; i < gradeRange; ++i)
+		{
+			for (var j = 0; j < maxAbsence; ++j)
+			{
+				if (matrix[i][j] > 0)
+				{
+					matrix[i][j] *= 6;
+				}
 			}
 		}
 

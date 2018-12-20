@@ -30,8 +30,7 @@
 </div>
 
 </div>
-
-	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
 
 	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -59,7 +58,7 @@
 
 		<label><u>Models</u></label><br>
 		<input type="radio" name="ml" value = "Grade" checked><label>Actual Data</label><br>
-        <input type="radio" name="ml" value = "pred_percep"><label>No Regulation Perceptron</label><br>
+        <!-- <input type="radio" name="ml" value = "pred_percep"><label>No Regulation Perceptron</label><br>
         <input type="radio" name="ml" value = "pred_LR"><label>Linear Regression</label><br>
         <input type="radio" name="ml" value = "pred_RR"><label>Ridge Regression</label><br>
         <input type="radio" name="ml" value = "pred_KRR"><label>Kernelridge</label><br>
@@ -69,7 +68,7 @@
         <input type="radio" name="ml" value = "pred_mlpr"><label>MLP Regressor</label><br>
         <input type="radio" name="ml" value = "pred_svr_lin"><label>SVR Linear</label><br>
         <input type="radio" name="ml" value = "pred_svr_rbf"><label>SVR RBF</label><br>
-        <input type="radio" name="ml" value = "pred_svr_sig"><label>SVR SIG</label><br>
+        <input type="radio" name="ml" value = "pred_svr_sig"><label>SVR SIG</label><br> -->
 	</div>
 
 	<div class="container">
@@ -100,13 +99,13 @@ drawIsomap(course, model);
 
 $("input[type=radio][name=course]").change(function() {
 	course = $(this).val();
-
+	
 	drawIsomap(course, model);
 });
 
 $("input[type=radio][name=ml]").change(function() {
 	model = $(this).val();
-
+	
 	drawIsomap(course, model);
 });
 
@@ -118,25 +117,24 @@ function drawIsomap(c, m)
 	{
 		d3.select("#chart-area svg").remove();
 
-		console.log(d3.max(data, function(d) {
-			return d[model] * 10 + 10;
-		}));
-
-		var width = d3.max(data.filter(function(d) { return d.Subject == c; }),
+		var width = d3.max(data.filter(function(d) { return d.Subject == c; }), 
 			function(d) { return d[m] * 10 + 20; });
-		var height = d3.max(data.filter(function(d) { return d.Subject == c; }),
+		var height = d3.max(data.filter(function(d) { return d.Subject == c; }), 
 			function(d) { return d.Attendence * 10 + 40; });
 
 		var svg = d3.select("#chart-area")
 				.append("svg")
 					.attr("width", width)
-					.attr("height", height);
+					.attr("height", height)
+					.on("click", function() {
+						closeNav();
+					});
 
 		var centerX = d3.select("svg").attr("width") / 2;
 		var centerY = d3.select("svg").attr("height") / 2;
 
-		var div = d3.select("body").append("div")
-		    .attr("class", "tooltip")
+		var div = d3.select("body").append("div")	
+		    .attr("class", "tooltip")				
 		    .style("opacity", 0);
 
 		var circles = svg.selectAll("circle")
@@ -154,17 +152,17 @@ function drawIsomap(c, m)
 					var display = "Grade: " + d.Grade + "<br/>Absences: " + d.Attendence
 					+ "</br>Gender: " + d.Sex;
 
-					div.transition()
-		                .duration(200)
+					div.transition()		
+		                .duration(200)		
 		                .style("opacity", .9);
 
 		            div.html(display)
-		            	.style("left", (d3.event.pageX) + "px")
+		            	.style("left", (d3.event.pageX) + "px")		
                 		.style("top", (d3.event.pageY - 28) + "px");
 				})
 				.on("mouseout", function(d) {
-					div.transition()
-		                .duration(500)
+					div.transition()		
+		                .duration(500)		
 		                .style("opacity", 0);
 				});
 	});
