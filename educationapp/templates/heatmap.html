@@ -8,8 +8,50 @@
   <link rel="stylesheet" type="text/css" href="./static/css/heatmap.css">
 </head>
 <body>
+<div class="row">
+  <div class="col-md-4">
+  <form method="get" action="/isomap2">
+    <button type="submit" style="height:70px;width:100px">isomap</button>
+</form>
+</div>
+
+  <div class="col-md-4">
+  <form method="get" action="/heatmap">
+    <button type="submit" style="height:70px;width:100px">heatmap</button>
+</form>
+</div>
+
+<div class="col-md-4">
+<form method="get" action="/">
+    <button type="submit" style="height:70px;width:100px">return</button>
+</form>
+</div>
+
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <label><u>Subjects:</u></label><br>
+  <input type="radio" name="subject" value="gem03" checked>
+     <label>Algorithms and Programming I</label><br>
+  <input type="radio" name="subject" value="facom49010">
+     <label>Algorithms and Programming II</label><br>
+  <input type="radio" name="subject" value="gfm015">
+     <label>Algorithms and Programming III</label><br>
+  <input type="radio" name="subject" value="gsi014">
+     <label>Discrete Mathematics I</label><br>
+  <input type="radio" name="subject" value="inf63">
+     <label>Discrete Mathematics II</label><br>
+  <input type="radio" name="subject" value="ggi005">
+     <label>Logic for Computer Science I</label><br>
+  <input type="radio" name="subject" value="gsi005">
+     <label>Logic for Computer Science II</label><br>
+  <input type="radio" name="subject" value="gsi015">
+     <label>Object Oriented Programming</label><br>
+  <input type="radio" name="subject" value="ggi017">
+     <label>Data Structures</label><br>
+  <input type="radio" name="subject" value="gsi037">
+     <label>Human-Computer Interaction</label><br><br>
+
+  <label><u>Machine Learning:</u></label><br>
   <input type="radio" name="ml" value = "pred_percep" checked><label>No Regulation Perceptron</label><br>
   <input type="radio" name="ml" value = "pred_LR"><label>Linear Regression</label><br>
   <input type="radio" name="ml" value = "pred_RR"><label>Ridge Regression</label><br>
@@ -22,26 +64,9 @@
   <input type="radio" name="ml" value = "pred_svr_rbf"><label>SVR RBF</label><br>
   <input type="radio" name="ml" value = "pred_svr_sig"><label>SVR SIG</label><br>
 </div>
-    <div class="row">
-  <div class="col-md-4">
-  <form method="get" action="/isomap1">
-    <button type="submit" style="height:70px;width:100px">scatter plot</button>
-</form>
-</div>
 
-  <div class="col-md-4">
-  <form method="get" action="/isomap2">
-    <button type="submit" style="height:70px;width:100px">isomap</button>
-</form>
-</div>
-
-<div class="col-md-4">
-<form method="get" action="/">
-    <button type="submit" style="height:70px;width:100px">return</button>
-</form>
-</div>
 <div class="container">
-  <div class="row">
+  <!-- <div class="row">
     <select id="var-select">
       <option value = "gem03" selected>Algorithms and Programming I</option>
       <option value = "facom49010">Algorithms and Programming II</option>
@@ -54,8 +79,9 @@
       <option value = "ggi017">Data Structures</option>
       <option value = "gsi037">Human-Computer Interaction</option>
     </select>
-  </div>
+  </div> -->
     <div class="row">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
       <h3>Actual Data</h3>
         <div id="chart-area" class="chart"></div>
     </div>
@@ -74,9 +100,7 @@
             <option value = "pred_svr_sig">SVR SIG</option>
         </select> -->
     </div>
-
     <div class="row">
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; ML Menu</span>
         <h3><span>Machine Learning Data</span></h3>
         <div id="chart-area2" class="chart"></div>
     </div>
@@ -91,6 +115,7 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+
 
 <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
 <script src="./static/js/jquery.min.js"></script>

@@ -1,37 +1,37 @@
 body {
-	background-color: #F1F3F3;
-	text-align: center;
+    background-color: #F1F3F3;
+    text-align: center;
 }
 
 /*h1, h3, p {
-	text-align: center;
+    text-align: center;
 }*/
 
 h3 {
-	background: black;
-	color: white;
+    background: black;
+    color: white;
 }
 
 /*#chart-area {
-	padding: 25px 0px;
+    padding: 25px 0px;
 }
 
 #chart-area2 {
-	padding: 25px 0px;
+    padding: 25px 0px;
 }*/
 
 .chart {
-	padding: 25px 0px;
+    padding: 25px 0px;
 }
 
 svg {
-	display: block;
-	margin: auto;
-	/*background-color: pink;*/
+    display: block;
+    margin: auto;
+    /*background-color: pink;*/
 }
 
 .container {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .tooltip {
@@ -39,17 +39,17 @@ svg {
     display: inline-block;
 }
 
-div.tooltip {	
-    position: absolute;			
-    text-align: center;			
-    width: 120px;					
-    height: 16px;					
-    padding: 2px;				
-    font: 12px sans-serif;		
-    background: lightsteelblue;	
-    border: 0px;		
-    border-radius: 8px;			
-    pointer-events: none;			
+div.tooltip {   
+    position: absolute;         
+    text-align: center;         
+    width: 120px;                   
+    height: 16px;                   
+    padding: 2px;               
+    font: 12px sans-serif;      
+    background: lightsteelblue; 
+    border: 0px;        
+    border-radius: 8px;         
+    pointer-events: none;           
 }
 
 /*Testing Sidebar*/
@@ -99,5 +99,5 @@ body {
 }
 
 label {
-	color: white;
+    color: white;
 }
