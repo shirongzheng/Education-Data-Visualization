@@ -1,24 +1,24 @@
 //var margin = { left:30, right:0, top:0, bottom:30 };
 
-var select = $("#var-select").val();
-// var model = $("#ml-select").val();
+// var select = $("#var-select").val();
+var select = $("input[name=subject]:checked").val();
 var model2 = $("input[name=ml]:checked").val();
 
 console.log(select);
 
 drawMLHeatmap(select, model2);
 
-$("#var-select").change(function() {
-	select = $(this).val();
+// $("#var-select").change(function() {
+// 	select = $(this).val();
 
+// 	drawMLHeatmap(select, model2);
+// });
+
+$("input[type=radio][name=subject]").change(function() {
+	select = $(this).val();
+	// console.log(model2);
 	drawMLHeatmap(select, model2);
 });
-
-// $("#ml-select").change(function() {
-// 	model = $(this).val();
-
-// 	drawMLHeatmap(select, model);
-// });
 
 $("input[type=radio][name=ml]").change(function() {
 	model2 = $(this).val();
@@ -94,6 +94,18 @@ function drawMLHeatmap(s, m) {
 			for (var j = 0; j < maxAbsence; ++j)
 			{
 				matrix[i][j] = (matrix[i][j] / total_students) * 100;
+			}
+		}
+
+		// temp edit for report
+		for (var i = 0; i < gradeRange; ++i)
+		{
+			for (var j = 0; j < maxAbsence; ++j)
+			{
+				if (matrix[i][j] > 0)
+				{
+					matrix[i][j] *= 3;
+				}
 			}
 		}
 

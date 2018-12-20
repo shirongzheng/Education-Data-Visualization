@@ -1,19 +1,23 @@
 body {
-	background-color: #F1F3F3;
-	text-align: center;
+    background-color: #F1F3F3;
+    text-align: center;
 }
 
 svg {
-	background-color: white;
-	/*display: block;
-	margin: auto;*/
+    background-color: white;
+    /*display: block;
+    margin: auto;*/
     border: 1px solid black;
 }
 
+/*#chart-area {
+    text-align: center;
+}*/
+
 h3 {
-	background: black;
-	color: white;
-	display: inline;
+    background: black;
+    color: white;
+    display: inline;
 }
 
 /*Tooltip*/
@@ -81,5 +85,5 @@ body {
 }
 
 label {
-	color: white;
+    color: white;
 }
