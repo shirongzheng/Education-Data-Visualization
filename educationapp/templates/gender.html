@@ -1,9 +1,10 @@
 {% extends "layout.html" %}
 
 {% block content %}
+
+
 <!-- svg of gender.js -->
 <!-- <svg width="960" height="1100"></svg> -->
-
 <div>
 <a href="/">
 <img border="0" alt="home" src="./static/images/return.jpg" width="50" height="50">
@@ -43,7 +44,8 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
           days = ["Sem1", "Sem2"],
           times = ["gem03/2009", "gsi014/2010","gsi014/2011", "gsi015/2012", "gsi015/2013","gsi015/2014","gsi015/2015","gsi015/2016","inf63/2009", "inf63/2010",
       "facom49010/2011", "facom49010/2014", "ggi017/2016", "ggi017/2017", "ggi005/2017", "gsi037/2015", "gfm015/2015", "gsi005/2011", "gsi005/2012","gsi005/2013","gsi005/2014"];
-          datasets = ["./static/data/Male.tsv", "./static/data/Female.tsv", "./static/data/P-value.tsv"];
+          datasets = ["./static/data/Males.tsv", "./static/data/Females.tsv", "./static/data/P-values.tsv"];
+
 
       var svg = d3.select("#chart").append("svg")
           .attr("width", width + margin.left + margin.right)
@@ -74,6 +76,7 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
             .attr("class", function(d, i) { return ((i >= 7 && i <= 16) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"); })
             ;
       colors2 = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0"]
+
       var heatmapChart = function(tsvFile) {
         d3.tsv(tsvFile,
         function(d) {
@@ -89,7 +92,7 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
               .range(colors);
 
           var colorScale2 = d3.scale.quantile()
-            .domain([0, /*buckets - 1*/5, 0.05])
+            .domain([0, /*buckets - 1*/4, 0.05])
             .range(colors2);
 
 
@@ -287,13 +290,24 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
           cards.transition().duration(1000)
               .style("fill", function(d) {
                 if (current_meow == "meow3")
-                  return colorScale2(d.value);
+                {
+                  if (d.value < 0.05  && d.value > 0 )
+                    return colorScale2(d.value);
+                  else if (d.value == 0)
+                    return "white";
+                  else
+                    return "lightgray";
+                }
                 else
-                  return colorScale(d.value);
+                  if(d.value == 0)
+                    return "white";
+                  else
+                    return colorScale(d.value);
                 });
 
           cards.select("title").text(function(d) {
-            return d.value; });
+            return d.value;
+          });
 
           //$("cards").on("click", function());
           var meow_num = -0.00625;
@@ -322,23 +336,43 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
               .attr("class", "legend");
               //.attr("transform", function(d, i) { return "translate(0," + i * 5 + ")"; });
 
+          var legend_counter = 0;
+          if (current_meow == "meow3") {
+            legend.append("rect")
+              .attr("x", function(d, i) { return legendElementWidth * i; })
+              .attr("y", 130)
+              .attr("width", legendElementWidth)
+              .attr("height", gridSize / 2)
+              .style("fill", function(d, i) { return colors[i]; })
+              .attr("id", function() { return "legend" + legend_counter++});
+          }
+          else {
+            legend.append("rect")
+              .attr("x", function(d, i) { return legendElementWidth * i; })
+              .attr("y", 130)
+              .attr("width", legendElementWidth)
+              .attr("height", gridSize / 2)
+              .style("fill", function(d, i) { return colors[i]; });
+          }
 
-          legend.append("rect")
-            .attr("x", function(d, i) { return legendElementWidth * i; })
-            .attr("y", 130)
-            .attr("width", legendElementWidth)
-            .attr("height", gridSize / 2)
-            .style("fill", function(d, i) { return colors[i]; });
 
+
+          var display_counter = 0;
           if (current_meow == "meow3")
           {
             legend.append("text")
               .attr("class", "mono")
               .text(function(d) {
-               return "≥ " + meow_list[counter++];
-              /*return "≥ " + Math.round(d);*/ })
+              return "≥ " + /*Math.round(d)*/ d.toFixed(2);
+              })
               .attr("x", function(d, i) { return legendElementWidth * i; })
-              .attr("y", 170);
+              .attr("y", 170)
+              .attr("id", function() { return "display" + display_counter++; });
+
+              d3.select("#display4").remove();
+              d3.select("#display5").remove();
+              d3.select("#legend5").attr("opacity", 0);
+              d3.select("#legend4").remove();
           }
           else {
             legend.append("text")
@@ -357,7 +391,9 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
       var meow = 1;
       var datasetpicker = d3.select("#dataset-picker").selectAll(".dataset-button")
         .data(datasets);
+
       var current_meow;
+
       datasetpicker.enter()
         .append("input")
         .attr("value", function(d){ return "Dataset " + d })
@@ -372,17 +408,7 @@ var margin = { top: 50, right: 800, bottom: 100, left: 40 },
           current_meow = $(this).attr("id");
           heatmapChart(d);
         });
-//function zoom() {
-//  window.open ("https://education-data-visualization.herokuapp.com/heatmap2",
-//"mywindow","menubar=1,resizable=1,width=350,height=250");
-  //alert("clicked test");
-//}
 
-//onclick="alert('You are clicking on me')"
-
-//$("Legend").on("click", function() {
-//  alert("click test");
-//});
 
 
 // zoomable tree map
