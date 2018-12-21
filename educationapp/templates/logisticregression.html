@@ -48,12 +48,13 @@
     <script type='text/javascript' src='./static/js/jquery-1.10.2.min.js'></script>
     <script type='text/javascript' src='./static/js/d3.v4.min.js'></script>
   </head>
-  <body>   
-  <div>
+  <body>  
+    <div>
 <a href="/">
 <img border="0" alt="home" src="./static/images/return.jpg" width="50" height="50">
 </a>
-</div> 
+</div>
+
     <div id="chart"></div>      
     <div id="pie-chart">
       <div id="gpa_select_box">      
@@ -82,7 +83,7 @@
         }
       }
 
-      var base_gpa = 2.7;
+      var base_gpa = 2.32;
 
       var svg = d3.select("#chart")      
             .append("svg")
@@ -1016,6 +1017,8 @@
 
       function filter_data(new_data, semester = "all") {        
         var dataset = [];
+        var no_of_fail = 0;
+        var no_of_pass = 0;        
         new_data.forEach(function(d) {          
           var idx = getGradeRangeIndex(d.Grade);          
           // //console.log('index', idx);
@@ -1025,6 +1028,11 @@
             cell.gendor = d.Sex;
             cell.graduated = (d.Date < '2014-01') ? 'yes' : 'no';
             // cell.gpa = grade_to_gpa[idx].gpa;
+            if(d.Date < '2014-01') {
+              no_of_pass++;
+            } else {
+              no_of_fail++;
+            }
             var gpa;             
             if(idx == 0) {
               gpa = grade_to_gpa[idx].gpa;              
@@ -1046,6 +1054,8 @@
           // //console.log('cell', d);
         });
         console.log('dataset', dataset);
+        console.log('Pass', no_of_pass);
+        console.log('Fail', no_of_fail);
         
         var nest1 = d3.nest()            
           .key(function(d){
