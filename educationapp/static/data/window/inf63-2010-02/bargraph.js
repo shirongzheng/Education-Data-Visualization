@@ -1,5 +1,5 @@
 var margin = {top: 20, right: 10, bottom: 100, left:50},
-    width = 1100 - margin.right - margin.left,
+    width = 1200 - margin.right - margin.left,
     height = 500 - margin.top - margin.bottom;
 
 var svg = d3.select("body")
@@ -38,14 +38,14 @@ d3.csv("Gdata.csv", function(error,data) {
     d.StudentID = d.StudentID;
     d.grades = +d.grades;       // try removing the + and see what the console prints
     d.sex = d.sex;
-    console.log(d.grades);   // use console.log to confirm
-    console.log(d.sex);
+    // console.log(d.grades);   // use console.log to confirm
+    // console.log(d.sex);
   });
 
     // sort the grades values
-    data.sort(function(a,b) {
-    return b.grades - a.grades;
-  });
+  //   data.sort(function(a,b) {
+  //   return b.grades - a.grades;
+  // });
 
   xScale.domain(data.map(function(d) { return d.StudentID; }) );
   yScale.domain([0, d3.max(data, function(d) { return d.grades; } ) ]);
@@ -65,7 +65,12 @@ d3.csv("Gdata.csv", function(error,data) {
       "width": xScale.rangeBand(),
       "height": function(d) { return  height - yScale(d.grades); }
     })
-    .style("fill", function(d,i) { return 'rgb(20, 20, ' + ((i * 30) + 100) + ')'});
+    .style("fill", function(d,i) { 
+        
+        if (d.sex == "M")
+          return "orange";
+        else
+          return "blue";});
       svg.selectAll('text')
       
             .data(data)
